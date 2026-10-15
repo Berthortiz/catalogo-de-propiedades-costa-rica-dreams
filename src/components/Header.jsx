@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo-cd-m.png";
 import "./Header.css";
 
 const links = [
-    { href: "/home", label: "Inicio" },
+    { href: "/products", label: "Inicio" },
     { href: "/products", label: "Propiedades" },
-    { href: "https://www.paypal.com/ncp/payment/R2QJS8AAF58S2", label: "PayPal", external: true },
+    // { href: "https://www.paypal.com/ncp/payment/R2QJS8AAF58S2", label: "PayPal", external: true },
 ];
 
-const contactUrl = "https://wa.link/bqgy6d";
+const contactUrl = "https://wa.me/50662400129";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -53,9 +54,8 @@ function Header() {
     return (
         <header className="site-header">
             <div className="site-header-inner">
-                <Link className="site-brand" to="/home" aria-label="Berth, inicio">
-                    <span className="site-brand-mark">B</span>
-                    <span className="site-brand-name">BERTH</span>
+                <Link className="site-brand" to="/home" aria-label="Costa Rica Dreams, inicio">
+                    <img className="site-brand-logo" src={logo} alt="Costa Rica Dreams Real Estate" />
                 </Link>
 
                 <nav className="desktop-navigation" aria-label="Navegación principal">
@@ -86,7 +86,7 @@ function Header() {
 
             <nav id="mobile-menu" className={`mobile-navigation${menuOpen ? " is-open" : ""}`} aria-label="Menú móvil" aria-hidden={!menuOpen}>
                 <div className="mobile-menu-heading">
-                    <span className="site-brand-name">BERTH</span>
+                    <img className="site-brand-logo site-brand-logo--menu" src={logo} alt="Costa Rica Dreams Real Estate" />
                     <button className="mobile-menu-close" type="button" aria-label="Cerrar menú" onClick={() => setMenuOpen(false)}>
                         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
                     </button>
