@@ -28,7 +28,7 @@ export default function GalleryProduct() {
                         className="galleryProducts__slider"
                         modules={[A11y, Navigation, Pagination]}
                         navigation={images.length > 1}
-                        pagination={images.length > 1 ? { clickable: true } : false}
+                        // pagination={images.length > 1 ? { clickable: true } : false}
                         onSwiper={(swiper) => { swiperRef.current = swiper; }}
                         onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
                         slidesPerView={1}
