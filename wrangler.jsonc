@@ -1,6 +1,6 @@
 {
     "$schema": "./node_modules/wrangler/config-schema.json",
-    "name": "catalogo-de-propiedades-costa-rica-dreams",
+    "name": "catalogo-de-propiedades-costa-rica-dream",
     "compatibility_date": "2026-10-15",
     "assets": {
         "directory": "./dist",

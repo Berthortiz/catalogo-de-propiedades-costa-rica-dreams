@@ -56,17 +56,92 @@
 .detail-specs {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: .8em;
+    gap: 1em;
     padding: 1.25em 0;
     margin: 1.25em 0 0;
     border-top: 1px solid #e5e7eb;
     border-bottom: 1px solid #e5e7eb;
-    list-style: none;
     color: #5b6470;
 }
 
-.detail-specs strong {
+.detail-specs .property-fact {
+    align-items: flex-start;
+    gap: .65em;
+}
+
+.detail-specs .property-fact>svg {
+    width: 22px;
+    height: 22px;
+    flex-basis: 22px;
+}
+
+.detail-specs .property-fact__text {
+    gap: .25em;
+    font-size: .82rem;
+}
+
+.detail-specs .property-fact__text strong {
     color: #202832;
+    font-size: 1rem;
+}
+
+.property-description {
+    max-width: 1100px;
+    padding: 3rem 0 1rem;
+    margin: 0 auto;
+}
+
+.property-description__intro {
+    max-width: 76ch;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.property-description__intro h2 {
+    margin: .35rem 0 .75rem;
+    color: #202832;
+    font-size: 1.6rem;
+}
+
+.property-description__intro p,
+.property-description__section p {
+    color: #515b65;
+    line-height: 1.75;
+}
+
+.property-description__section {
+    max-width: 76ch;
+    padding: 1.35rem 0 .75rem;
+}
+
+.property-description__section h3 {
+    margin: 0 0 .5rem;
+    color: #202832;
+    font-size: 1.1rem;
+}
+
+.property-description__section p+p {
+    margin-top: .8rem;
+}
+
+@media (max-width: 760px) {
+    .property-detail-layout {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .ProductDetail {
+        width: 100%;
+        padding: 1.5rem 1rem;
+    }
+
+    .property-description {
+        padding: 2rem 1rem .5rem;
+    }
+
+    .detail-specs {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .price-per-sqft {

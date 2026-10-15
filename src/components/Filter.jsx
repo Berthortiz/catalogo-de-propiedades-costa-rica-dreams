@@ -71,6 +71,7 @@ export default function Filter() {
             <option value="all">Todas</option>
             <option value="available">Disponible</option>
             <option value="unavailable">No disponible</option>
+            <option value="unknown">Por confirmar</option>
           </select>
         </div>
 

@@ -29,8 +29,11 @@ export default function GalleryProduct() {
     return (
         <section className="galleryProducts">
             <div className="galleryProducts__main-image"> { /*no da error porque se renderiza cuando ya esta cargado el componente*/}
-                {/* si hay imagenes muestraslos sino, no */}
-                {product.images?.length > 0 && <img src={!imageProduct ? product.images[0] : imageProduct} alt={product.title} />}
+                {product.images?.length > 0
+                    ? <img src={!imageProduct ? product.images[0] : imageProduct} alt={product.title} />
+                    : <div className="galleryProducts__placeholder" role="img" aria-label={`Fotografías pendientes para ${product.title}`}>
+                        <span>Fotografías próximamente</span>
+                    </div>}
             </div>
 
             {

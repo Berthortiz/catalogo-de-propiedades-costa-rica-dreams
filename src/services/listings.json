@@ -309,6 +309,841 @@
             ],
             "url": "https://demo01.houzez.co/property/modern-loft-apartment/",
             "available": true
+        },
+        {
+            "id": 19,
+            "title": "Residencia contemporánea en Los Laureles",
+            "address": "Los Laureles, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 8000,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 5,
+                "serviceBedrooms": 1,
+                "bathrooms": null,
+                "halfBathrooms": null,
+                "serviceBathrooms": 1,
+                "garage": 3,
+                "coveredGarage": 3,
+                "sqFt": null,
+                "constructionArea": 453.84,
+                "landArea": 600,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 453.84,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 600,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "residences",
+                    "label": "Residencias en condominio",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Residencia contemporánea a estrenar en Los Laureles, una de las zonas residenciales más exclusivas y privadas del oeste de San José. Su arquitectura vanguardista, amplitud y entorno tranquilo ofrecen confort, privacidad y seguridad.",
+                "sections": [
+                    {
+                        "title": "Espacios privados y familiares",
+                        "paragraphs": [
+                            "Cuenta con habitaciones amplias y luminosas, una oficina privada independiente y una sala de televisión familiar."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales y exteriores",
+                        "paragraphs": [
+                            "La sala y el comedor se integran con una cocina gourmet de acabados premium.",
+                            "La terraza techada conecta con un jardín privado y una piscina de uso exclusivo."
+                        ]
+                    },
+                    {
+                        "title": "Servicios y seguridad",
+                        "paragraphs": [
+                            "Incluye habitación de servicio con baño independiente y lavandería equipada.",
+                            "Forma parte de un condominio boutique de baja densidad con acceso controlado y vigilancia permanente."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Está cerca de Multiplaza Escazú, Avenida Escazú, el Hospital CIMA, la Ruta 27, colegios, restaurantes y centros corporativos."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 20,
+            "title": "Residencia de lujo en Alto de Las Palomas",
+            "address": "Alto de Las Palomas, San Rafael de Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 6000,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 5,
+                "serviceBedrooms": 1,
+                "bathrooms": 4,
+                "halfBathrooms": 1,
+                "serviceBathrooms": 1,
+                "garage": 4,
+                "coveredGarage": 4,
+                "sqFt": null,
+                "constructionArea": 600,
+                "landArea": 1012,
+                "floors": 3
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones principales",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "4 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 600,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 1012,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Residencia de arquitectura contemporánea en una de las zonas más exclusivas de Escazú, con amplios espacios interiores y exteriores, vistas panorámicas y privacidad.",
+                "sections": [
+                    {
+                        "title": "Espacios privados",
+                        "paragraphs": [
+                            "Cuenta con cinco habitaciones principales, una oficina privada independiente y una sala de televisión familiar. La residencia se distribuye en tres niveles."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales y exteriores",
+                        "paragraphs": [
+                            "La sala y el comedor conectan con una terraza techada, jardín y piscina privada. La cocina cuenta con isla central y acceso directo a la terraza."
+                        ]
+                    },
+                    {
+                        "title": "Servicios y comodidades",
+                        "paragraphs": [
+                            "Incluye habitación de servicio con baño propio, aire acondicionado y espacios para reuniones al aire libre.",
+                            "Se aceptan mascotas."
+                        ]
+                    },
+                    {
+                        "title": "Seguridad y ubicación",
+                        "paragraphs": [
+                            "La residencia se encuentra dentro de un entorno privado con vigilancia y control de acceso.",
+                            "Su ubicación facilita el acceso a Escazú y Santa Ana."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 21,
+            "title": "Residencia remodelada en Hacienda del Sol",
+            "address": "Condominio Hacienda del Sol, Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 999999,
+                "currency": "USD",
+                "period": null
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "bathrooms": 5,
+                "halfBathrooms": null,
+                "serviceBathrooms": null,
+                "garage": 6,
+                "coveredGarage": null,
+                "sqFt": null,
+                "constructionArea": null,
+                "landArea": null,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Dormitorios principales",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños completos",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Capacidad de estacionamiento",
+                    "value": 6,
+                    "unit": "vehículos"
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Residencia completamente remodelada en el exclusivo condominio Hacienda del Sol. Combina arquitectura moderna, acabados de primera línea, distribución funcional y abundante luz natural.",
+                "sections": [
+                    {
+                        "title": "Distribución y confort",
+                        "paragraphs": [
+                            "La suite principal está en la planta baja. Las habitaciones secundarias cuentan con baño completo y terraza privada.",
+                            "La casa incluye sala familiar, lavandería y ático para almacenamiento."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "La comunidad ofrece casa club con piscina y jacuzzi, gimnasio, canchas de tenis, parque infantil y zonas verdes."
+                        ]
+                    },
+                    {
+                        "title": "Seguridad y ubicación",
+                        "paragraphs": [
+                            "El residencial cuenta con vigilancia y control de acceso.",
+                            "Su ubicación en Santa Ana ofrece conectividad con los servicios y comercios de la zona oeste."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 22,
+            "title": "Villa Neo Classic en Eco Residencial Villa Real",
+            "address": "Pozos, Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 7500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "bathrooms": 5.5,
+                "halfBathrooms": null,
+                "serviceBathrooms": 1,
+                "garage": 4,
+                "coveredGarage": null,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": null,
+                "landArea": null,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Dormitorios principales",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": 5.5,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": "Más de 600",
+                    "unit": "m²"
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Villa de diseño contemporáneo en Eco Residencial Villa Real, entre Escazú y Santa Ana. Integra espacios luminosos con áreas tropicales de entretenimiento y vistas verdes.",
+                "sections": [
+                    {
+                        "title": "Interiores",
+                        "paragraphs": [
+                            "La suite principal cuenta con vestidor y baño de concepto abierto. Las tres suites secundarias tienen baño completo privado y terraza propia.",
+                            "La cocina y los espacios sociales se conectan con las áreas exteriores."
+                        ]
+                    },
+                    {
+                        "title": "Terraza y entretenimiento",
+                        "paragraphs": [
+                            "La terraza se integra con piscina y jacuzzi privados, área de juegos, BBQ y comedor al aire libre."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades y privacidad",
+                        "paragraphs": [
+                            "El residencial ofrece senderos privados, bosques protegidos, paisajismo cuidado y acceso controlado con vigilancia permanente."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 23,
+            "title": "Residencia remodelada en Piedades",
+            "address": "Piedades, Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 4600,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "ensuiteBedrooms": 4,
+                "bathrooms": 4,
+                "halfBathrooms": 0,
+                "serviceBathrooms": null,
+                "garage": 6,
+                "coveredGarage": 4,
+                "sqFt": null,
+                "constructionArea": 432,
+                "landArea": 1014,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones privadas",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños privados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios de parqueo",
+                    "value": 6,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios techados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 432,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 1014,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Plantas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Residencia remodelada en un residencial privado de Piedades, con acabados de lujo, abundante luz natural y amplias zonas verdes.",
+                "sections": [
+                    {
+                        "title": "Área social y recreativa",
+                        "paragraphs": [
+                            "La cocina ofrece amplio almacenamiento y alacena independiente. La antesala y la sala principal tienen una distribución fluida.",
+                            "Las áreas exteriores integran terraza techada, jardín, piscina privada y rancho para actividades sociales."
+                        ]
+                    },
+                    {
+                        "title": "Área privada",
+                        "paragraphs": [
+                            "La planta alta reúne tres habitaciones amplias, cada una con walk-in closet y baño privado. La primera planta cuenta con una habitación con baño privado. También hay sala de televisión y oficina o cuarto multiuso."
+                        ]
+                    },
+                    {
+                        "title": "Servicios y seguridad",
+                        "paragraphs": [
+                            "La propiedad incluye habitación de servicio independiente, bodega, cámaras y control de acceso.",
+                            "La cuota de seguridad del residencial está incluida en el alquiler."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 24,
+            "title": "Residencia contemporánea en Guachipelín",
+            "address": "Guachipelín, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 4500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "ensuiteBedrooms": 4,
+                "bathrooms": 5.5,
+                "halfBathrooms": null,
+                "serviceBathrooms": null,
+                "garage": null,
+                "coveredGarage": null,
+                "sqFt": null,
+                "constructionArea": 550,
+                "landArea": 591,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "5 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 550,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 591,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terrazas",
+                    "value": 2,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Residencia contemporánea con vistas panorámicas al valle y las montañas, remodelada con acabados de lujo y amplios espacios interiores y exteriores.",
+                "sections": [
+                    {
+                        "title": "Interiores",
+                        "paragraphs": [
+                            "La sala y el comedor se integran con una cocina moderna con isla central. Las cuatro habitaciones tienen baño privado; una está ubicada en el primer nivel.",
+                            "La propiedad cuenta con aire acondicionado central y habitación de servicio independiente."
+                        ]
+                    },
+                    {
+                        "title": "Terrazas y vistas",
+                        "paragraphs": [
+                            "Las terrazas techadas ofrecen espacio para reuniones, BBQ y actividades al aire libre, con vistas abiertas al paisaje montañoso."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 25,
+            "title": "Residencia de estilo morisco en Alto de Las Palomas",
+            "address": "Alto de Las Palomas, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 4700,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "serviceBedrooms": 1,
+                "bathrooms": 3,
+                "halfBathrooms": 1,
+                "serviceBathrooms": 1,
+                "garage": 4,
+                "coveredGarage": null,
+                "sqFt": null,
+                "constructionArea": 540,
+                "landArea": 1000,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones principales",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "3 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 540,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 1000,
+                    "unit": "m²"
+                }
+            ],
+            "description": {
+                "summary": "Propiedad independiente de estilo morisco en Alto de Las Palomas, con arquitectura singular, jardines amplios y vistas panorámicas.",
+                "sections": [
+                    {
+                        "title": "Interiores y entretenimiento",
+                        "paragraphs": [
+                            "La residencia dispone de dormitorios confortables y un área social interior con bar privado y jacuzzi."
+                        ]
+                    },
+                    {
+                        "title": "Exteriores",
+                        "paragraphs": [
+                            "Los jardines rodean la propiedad y la terraza en la azotea ofrece vistas abiertas y un espacio para disfrutar del clima."
+                        ]
+                    },
+                    {
+                        "title": "Seguridad",
+                        "paragraphs": [
+                            "El terreno plano y el muro perimetral, junto con el portón eléctrico y el sistema integral de seguridad, ofrecen privacidad y tranquilidad."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 26,
+            "title": "Mansión de campo en Bello Horizonte",
+            "address": "Bello Horizonte, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 7500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 5,
+                "serviceBedrooms": null,
+                "bathrooms": 5,
+                "halfBathrooms": 1,
+                "serviceBathrooms": null,
+                "garage": 10,
+                "coveredGarage": 5,
+                "openGarage": 5,
+                "sqFt": null,
+                "constructionArea": 628,
+                "landArea": 4281,
+                "floors": null,
+                "terraces": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Dormitorios",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Estudio independiente",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Dormitorio externo de huéspedes",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": 5.5,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios de parqueo",
+                    "value": 10,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios techados",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios descubiertos",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 628,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 4281,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terrazas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Almacenamiento de agua",
+                    "value": "Subterráneo y aéreo",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Mansión de campo en Bello Horizonte, rodeada de jardines y con arquitectura clásica, techos artesonados en maderas preciosas y una piscina privada.",
+                "sections": [
+                    {
+                        "title": "Dormitorios y espacios familiares",
+                        "paragraphs": [
+                            "La suite principal cuenta con walk-in closet, jacuzzi, doble lavatorio y bidet. Las habitaciones secundarias comparten baño completo.",
+                            "La propiedad incluye un estudio independiente equipado con cocina y baño, además de un dormitorio externo para huéspedes con baño propio."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales y cocina",
+                        "paragraphs": [
+                            "La casa ofrece lobby, sala y comedor de concepto abierto, antecomedor, bar y corredores amplios.",
+                            "La cocina independiente incluye mobiliario de teca, desayunador, cuarto frío y despensa."
+                        ]
+                    },
+                    {
+                        "title": "Terrazas, piscina y autosuficiencia",
+                        "paragraphs": [
+                            "Una terraza junto a la piscina incorpora zona BBQ; la terraza superior ofrece vistas a las montañas.",
+                            "La propiedad cuenta con pozo de agua potable, almacenamiento subterráneo y aéreo, riego automatizado, cava de vinos y bodega."
+                        ]
+                    },
+                    {
+                        "title": "Seguridad",
+                        "paragraphs": [
+                            "Dispone de cámaras, tapia perimetral, caseta para guarda y un aposento blindado para custodia de valores.",
+                            "Se aceptan mascotas."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [],
+            "url": null,
+            "available": null
         }
     ]
 }

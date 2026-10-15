@@ -6,15 +6,18 @@ export default function WhatsAppButton({ property, className }) {
     const message = [
         `Hola, me interesa la propiedad ${property.title}.`,
         `Precio: ${formatPrice(property.price)}.`,
-        `Disponibilidad: ${property.available ? "Disponible" : "No disponible"}.`,
         `Ubicación: ${property.address}.`,
         `Más información: ${propertyUrl}`
-    ].join("\n");
+    ];
+
+    if (property.available !== null && property.available !== undefined) {
+        message.splice(2, 0, `Disponibilidad: ${property.available ? "Disponible" : "No disponible"}.`);
+    }
 
     return (
         <a
             className={className}
-            href={`https://wa.me/?text=${encodeURIComponent(message)}`}
+            href={`https://wa.me/?text=${encodeURIComponent(message.join("\n"))}`}
             target="_blank"
             rel="noreferrer"
             aria-label={`Consultar ${property.title} por WhatsApp`}
@@ -32,7 +35,7 @@ WhatsAppButton.propTypes = {
         id: PropTypes.number.isRequired,
         title: PropTypes.string.isRequired,
         address: PropTypes.string.isRequired,
-        available: PropTypes.bool.isRequired,
+        available: PropTypes.bool,
         price: PropTypes.shape({
             amount: PropTypes.number.isRequired,
             currency: PropTypes.string.isRequired,
