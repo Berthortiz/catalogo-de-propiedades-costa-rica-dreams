@@ -1,6 +1,6 @@
-import { BrowserRouter } from "react-router-dom";
+import { useLayoutEffect } from "react";
+import { BrowserRouter, Route, useLocation, useNavigationType } from "react-router-dom";
 import PropTypes from "prop-types";
-import { Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import Login from "./public/Login";
 import { Navigate } from "react-router-dom";
@@ -10,11 +10,25 @@ import ProductDetailPage from "./pages/ProductDetailPage"
 import { PrivateRouter } from "./private/PrivateRouter";
 import RoutesWithNotFound from "./components/RoutesWithNotFound/RoutesWithNotFound";
 
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  const navigationType = useNavigationType();
+
+  useLayoutEffect(() => {
+    if (navigationType !== "POP") {
+      window.scrollTo(0, 0);
+    }
+  }, [pathname, navigationType]);
+
+  return null;
+}
+
 
 
 export default function AppRouter({ children }) {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       {children}
 
       <RoutesWithNotFound>
