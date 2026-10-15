@@ -13,7 +13,7 @@ export default function ProductDetailPage() {
         return <h1>{errorMessage}</h1>
     }
     return (
-        <main className="productoDetailPage__container py-14 px-10">
+        <main className="productoDetailPage__container py-14 px-3 lg:px-10">
             {
                 product ? (
                     <>
