@@ -13,11 +13,11 @@ export default function ProductDetailPage() {
         return <h1>{errorMessage}</h1>
     }
     return (
-        <main className="productoDetailPage__container py-14">
+        <main className="productoDetailPage__container py-14 px-10">
             {
                 product ? (
                     <>
-                        <section className="property-detail-layout flex gap-8">
+                        <section className="property-detail-layout max-w-7xl  flex gap-8">
                             <GalleryProduct />
                             <ProductDetail />
                         </section>

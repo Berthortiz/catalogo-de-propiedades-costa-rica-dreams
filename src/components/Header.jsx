@@ -95,12 +95,12 @@ function Header() {
                 <a className="header-contact mobile-contact" href={contactUrl} target="_blank" rel="noreferrer" onClick={() => setMenuOpen(false)}>
                     Contacto por WhatsApp
                 </a>
-                <div className="header-social-links">
+                {/* <div className="header-social-links">
                     <span>Redes sociales</span>
                     <a href="https://youtube.com/@berthortiz?si=BBZQJ3pbdA6iKWga" target="_blank" rel="noreferrer">YouTube</a>
                     <a href="https://www.instagram.com/berth_ortiz/" target="_blank" rel="noreferrer">Instagram</a>
                     <a href={contactUrl} target="_blank" rel="noreferrer">WhatsApp</a>
-                </div>
+                </div> */}
             </nav>
         </header>
     );
