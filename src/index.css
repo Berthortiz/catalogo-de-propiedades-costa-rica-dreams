@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #ff6700;
+  --width-cart: 24em;
+}
+
+
+
+.Wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 3em;
+}
+
+@media (max-width: 641px) {
+  .Wrapper {
+    padding: 0 0;
+  }
+}
+
+.swiper .swiper-button-prev {
+  left: 2em;
+}
+
+.swiper .swiper-button-next {
+  right: 2em;
+
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0 1em;
+  border-radius: 5px;
+  height: 2.4em;
+
+}
+
+.swiper .swiper-button-next::after,
+.swiper .swiper-button-prev::after {
+  height: 20px;
+  font-size: 1.2rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+  /* o el color que prefieras */
+  opacity: 0.5;
+  margin: 0 4px;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f97316;
+  /* por ejemplo, naranja */
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+
+
+/* 
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+/* ~ */
+
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 800;
+
+}
+
+.aside-cart {
+  /* transform: translateX(0); */
+  transition: all .4s ease;
+}
+
+.label-input-cart~.input-cart:checked~.aside-cart {
+  /* transform: translate(100%); */
+}
+
+/* 
+#inputCart:checked~.aside-cart~#overlay-cart {
+  display: none;
+} */

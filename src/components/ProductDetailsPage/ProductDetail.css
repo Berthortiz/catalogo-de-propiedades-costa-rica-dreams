@@ -1,0 +1,120 @@
+:root {
+    --color-text-dark: 240, 9%;
+}
+
+.ProductDetail {
+    padding: 3em;
+    width: 50%;
+    /* background-color: rebeccapurple; */
+}
+
+.ProductDetail__category {
+    color: hsl(240, 9%, 60%);
+    font-weight: 500;
+
+    text-transform: uppercase;
+}
+
+.ProductDetail__title {
+    color: hsl(240, 9%, 18%);
+    color: hsl(var(--color-text-dark), 18%);
+    text-transform: uppercase;
+}
+
+.ProductDetail__description {
+    max-width: 50ch;
+    color: hsl(var(--color-text-dark), 50%);
+    font-weight: 400;
+}
+
+.ProductDetail__price {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(var(--color-text-dark), 20%);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.ProductDetail__price-container div {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.ProductDetail__price-discount {
+    background-color: hsl(240, 9%, 20%);
+    color: hsl(var(--color-text-dark), 92%);
+    padding: .2em .6em .2em .75em;
+    border-radius: 8px;
+}
+
+.ProductDetail__price-original {
+    font-weight: 600;
+    color: hsl(var(--color-text-dark), 55%);
+}
+
+.detail-specs {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .8em;
+    padding: 1.25em 0;
+    margin: 1.25em 0 0;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    list-style: none;
+    color: #5b6470;
+}
+
+.detail-specs strong {
+    color: #202832;
+}
+
+.price-per-sqft {
+    color: #68717b;
+    font-size: .9rem;
+}
+
+.agent-detail {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+    margin: 1.5em 0;
+}
+
+.agent-detail img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.agent-detail div {
+    display: grid;
+    gap: .2em;
+}
+
+.agent-detail span {
+    color: #68717b;
+    font-size: .8rem;
+}
+
+.detail-whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1em;
+    padding: .75em 1.25em;
+    border-radius: 4px;
+    color: #fff;
+    background: #168b68;
+    text-decoration: none;
+}
+
+.detail-whatsapp-button:hover {
+    background: #116f53;
+}
+
+.detail-whatsapp-button svg {
+    width: 20px;
+    height: 20px;
+}

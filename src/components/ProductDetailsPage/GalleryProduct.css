@@ -1,0 +1,40 @@
+:root {
+    --bg-color-img: #ffffff;
+    --boder-radius-img-product: 10px;
+    --border-color-img-product: hsla(0, 0%, 85%, 0.40);
+}
+
+.galleryProducts {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    gap: 10px;
+    width: 50%;
+
+}
+
+.galleryProducts__main-image {
+    padding: 2em;
+    grid-column: 1 / 5;
+
+}
+
+
+.galleryProducts__main-image img {
+    width: 100%;
+}
+
+.galleryProducts__main-image {
+    background-color: var(--bg-color-img);
+    border-radius: var(--boder-radius-img-product);
+    border: 1px solid var(--border-color-img-product);
+
+}
+
+.galleryProducts__container-image {
+    padding: .5em;
+    background-color: var(--bg-color-img);
+    border-radius: var(--boder-radius-img-product);
+    border: 1px solid var(--border-color-img-product);
+
+    cursor: pointer;
+}

@@ -1,0 +1,222 @@
+.site-header {
+    position: relative;
+    z-index: 30;
+    width: 100%;
+    background: #141e22;
+    color: #f5f3ed;
+}
+
+.site-header-inner {
+    display: flex;
+    width: min(100% - 3rem, 1280px);
+    min-height: 76px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.site-brand {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: .65rem;
+    color: inherit;
+    text-decoration: none;
+}
+
+.site-brand-mark {
+    display: grid;
+    width: 34px;
+    aspect-ratio: 1;
+    place-items: center;
+    border: 1px solid #c2a46d;
+    color: #e0c892;
+    font-family: Georgia, serif;
+    font-size: 1.15rem;
+}
+
+.site-brand-name {
+    color: #f5f3ed;
+    font-size: .88rem;
+    font-weight: 700;
+}
+
+.desktop-navigation {
+    display: flex;
+    align-items: center;
+    gap: clamp(1rem, 3vw, 2.5rem);
+    margin-left: auto;
+}
+
+.desktop-menu-link,
+.mobile-menu-link {
+    color: #d6dcda;
+    font-size: .95rem;
+    text-decoration: none;
+    transition: color .18s ease;
+}
+
+.desktop-menu-link:hover,
+.mobile-menu-link:hover {
+    color: #e0c892;
+}
+
+.header-contact {
+    display: inline-flex;
+    min-height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: .55rem 1.1rem;
+    border: 1px solid #c2a46d;
+    color: #e0c892;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color .18s ease, color .18s ease;
+}
+
+.header-contact:hover {
+    background: #c2a46d;
+    color: #141e22;
+}
+
+.mobile-menu-toggle,
+.mobile-menu-close {
+    display: none;
+    width: 44px;
+    height: 44px;
+    place-items: center;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+}
+
+.mobile-menu-toggle svg,
+.mobile-menu-close svg {
+    width: 28px;
+    height: 28px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.8;
+}
+
+.mobile-navigation,
+.mobile-menu-backdrop {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .site-header-inner {
+        width: calc(100% - 2rem);
+        min-height: 68px;
+    }
+
+    .desktop-navigation,
+    .desktop-contact {
+        display: none;
+    }
+
+    .mobile-menu-toggle {
+        display: grid;
+    }
+
+    .mobile-menu-backdrop {
+        position: fixed;
+        z-index: 40;
+        inset: 0;
+        display: block;
+        border: 0;
+        background: #081012b8;
+        backdrop-filter: blur(4px);
+    }
+
+    .mobile-navigation {
+        position: fixed;
+        z-index: 41;
+        inset: 0 0 0 auto;
+        display: flex;
+        width: min(88vw, 390px);
+        flex-direction: column;
+        gap: 2rem;
+        overflow-y: auto;
+        padding: 1.25rem 1.5rem 2rem;
+        background: #141e22;
+        box-shadow: -20px 0 60px #0004;
+        transform: translateX(105%);
+        transition: transform .28s ease;
+        visibility: hidden;
+    }
+
+    .mobile-navigation.is-open {
+        transform: translateX(0);
+        visibility: visible;
+    }
+
+    .mobile-menu-heading {
+        display: flex;
+        min-height: 44px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-menu-close {
+        display: grid;
+    }
+
+    .mobile-menu-links {
+        display: grid;
+    }
+
+    .mobile-menu-link {
+        padding: 1rem .25rem;
+        border-bottom: 1px solid #ffffff1a;
+        color: #f5f3ed;
+        font-size: 1.1rem;
+    }
+
+    .mobile-contact {
+        width: 100%;
+        min-height: 48px;
+        border-color: #3d9c77;
+        color: #b6e2ce;
+    }
+
+    .mobile-contact:hover {
+        background: #3d9c77;
+        color: #10251c;
+    }
+
+    .header-social-links {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: .75rem 1rem;
+        color: #aeb9b6;
+        font-size: .82rem;
+    }
+
+    .header-social-links span {
+        width: 100%;
+        color: #f5f3ed;
+        font-weight: 700;
+    }
+
+    .header-social-links a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .desktop-menu-link,
+    .mobile-menu-link,
+    .header-contact,
+    .mobile-navigation {
+        transition: none;
+    }
+}

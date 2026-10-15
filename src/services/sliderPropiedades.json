@@ -1,0 +1,58 @@
+{
+    "slider": [
+        {
+            "id": "propiedad-1",
+            "title": "Tu próximo hogar empieza aquí",
+            "location": "Lomas de Chapultepec, CDMX",
+            "description": "Una casa contemporánea con luz natural y espacio para disfrutar en familia.",
+            "price": 8750000,
+            "features": [
+                "3 recámaras",
+                "2 baños",
+                "210 m²"
+            ],
+            "url": "#contacto",
+            "img": {
+                "alt": "Casa contemporánea rodeada de jardín",
+                "image_pc": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=85",
+                "image_mobile": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+            }
+        },
+        {
+            "id": "propiedad-2",
+            "title": "Vive el ritmo de la ciudad",
+            "location": "Roma Norte, CDMX",
+            "description": "Un departamento moderno a pasos de cafés, parques y toda la vida del barrio.",
+            "price": 4890000,
+            "features": [
+                "2 recámaras",
+                "2 baños",
+                "95 m²"
+            ],
+            "url": "#contacto",
+            "img": {
+                "alt": "Interior luminoso de un departamento moderno",
+                "image_pc": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85",
+                "image_mobile": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80"
+            }
+        },
+        {
+            "id": "propiedad-3",
+            "title": "Más espacio para vivir mejor",
+            "location": "Coyoacán, CDMX",
+            "description": "Encuentra tranquilidad, áreas amplias y rincones para hacerlos tuyos.",
+            "price": 7350000,
+            "features": [
+                "4 recámaras",
+                "3 baños",
+                "260 m²"
+            ],
+            "url": "#contacto",
+            "img": {
+                "alt": "Sala amplia con grandes ventanales y acabados cálidos",
+                "image_pc": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2000&q=85",
+                "image_mobile": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"
+            }
+        }
+    ]
+}
