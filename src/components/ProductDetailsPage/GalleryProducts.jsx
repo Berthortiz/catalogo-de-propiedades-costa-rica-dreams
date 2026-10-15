@@ -1,56 +1,75 @@
 import useProductDetails from "../../hooks/useProductDetails";
 import "./GalleryProduct.css"
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { A11y, Navigation, Pagination } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 export default function GalleryProduct() {
 
     const { product } = useProductDetails();
-
-    const [imageProduct, setImageProduct] = useState()
-
-
-    const handleClickProductItem = (urlImage) => {
-
-        setImageProduct(urlImage)
-
-
-
-    }
+    const swiperRef = useRef(null);
+    const [activeIndex, setActiveIndex] = useState(0);
 
     if (!product) {
         return null;
     }
 
-
-    // Dar por echo que los estados que dependan de una funcion asyncrona
-    // simpre daran error o cuando el componenete intenta leer algo que todabia no tiene
-    // cuando in tuya que los datos aun no esta cargados hacer comprovaciones  
+    const images = product.images ?? [];
 
     return (
         <section className="galleryProducts">
-            <div className="galleryProducts__main-image"> { /*no da error porque se renderiza cuando ya esta cargado el componente*/}
-                {product.images?.length > 0
-                    ? <img src={!imageProduct ? product.images[0] : imageProduct} alt={product.title} />
-                    : <div className="galleryProducts__placeholder" role="img" aria-label={`Fotografías pendientes para ${product.title}`}>
-                        <span>Fotografías próximamente</span>
-                    </div>}
-            </div>
+            {images.length > 0 ? (
+                <>
+                    <Swiper
+                        className="galleryProducts__slider"
+                        modules={[A11y, Navigation, Pagination]}
+                        navigation={images.length > 1}
+                        pagination={images.length > 1 ? { clickable: true } : false}
+                        onSwiper={(swiper) => { swiperRef.current = swiper; }}
+                        onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
+                        slidesPerView={1}
+                        spaceBetween={0}
+                        loop={images.length > 1}
+                    >
+                        {images.map((image, index) => (
+                            <SwiperSlide key={`${image}-${index}`}>
+                                <div className="galleryProducts__slide">
+                                    <img
+                                        src={image}
+                                        alt={`${product.title}, imagen ${index + 1}`}
+                                        loading={index === 0 ? "eager" : "lazy"}
+                                    />
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
 
-            {
-                product?.images?.map((item, i) => {
-                    return (
-                        <button type="button" key={i} onClick={() => handleClickProductItem(item)} className="galleryProducts__container-image" aria-label={`Ver imagen ${i + 1}`}>
-
-                            <img src={item} alt="" />
-
-                        </button>
-                    )
-
-
-                }
-                )
-            }
-
+                    {images.length > 1 && (
+                        <div className="galleryProducts__thumbnails" role="group" aria-label="Miniaturas de la propiedad">
+                            {images.map((image, index) => (
+                                <button
+                                    type="button"
+                                    key={`${image}-${index}`}
+                                    className={`galleryProducts__thumbnail${activeIndex === index ? " is-active" : ""}`}
+                                    aria-label={`Mostrar imagen ${index + 1} de ${images.length}`}
+                                    aria-pressed={activeIndex === index}
+                                    onClick={() => swiperRef.current?.slideToLoop(index)}
+                                >
+                                    <img src={image} alt="" loading="lazy" />
+                                </button>
+                            ))}
+                        </div>
+                    )}
+                </>
+            ) : (
+                <div className="galleryProducts__placeholder" role="img" aria-label={`Fotografías pendientes para ${product.title}`}>
+                    <span>Fotografías próximamente</span>
+                </div>
+            )}
         </section>
     );
 }
