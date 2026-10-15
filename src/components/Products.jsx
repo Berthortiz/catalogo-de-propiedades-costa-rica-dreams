@@ -24,7 +24,7 @@ export default function Products() {
     <main className="properties-page Wrapper min-h-96 relative">
       <header className="properties-heading">
         <div>
-          <span className="properties-eyebrow">COSTA RICA · MIAMI</span>
+          <span className="properties-eyebrow">COSTA RICA</span>
           <h1>Propiedades</h1>
         </div>
         <span className="properties-count">{filtedProducts.length} propiedades</span>
