@@ -1,317 +1,7 @@
 {
     "properties": [
         {
-            "id": 4,
-            "title": "Equestrian Villa",
-            "address": "3385 Pan American Dr, Miami, FL 33133, USA",
-            "price": {
-                "amount": 1599000,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": 15000,
-            "propertyType": "villa",
-            "specifications": {
-                "bedrooms": 4,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 1200
-            },
-            "agent": {
-                "name": "Samuel Palmer",
-                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/equestrian-villa/",
-            "available": false
-        },
-        {
-            "id": 7,
-            "title": "Light And Modern Apartment",
-            "address": "2436 SW 8th St, Miami, FL 33135, USA",
-            "price": {
-                "amount": 4500,
-                "currency": "USD",
-                "period": "month"
-            },
-            "pricePerSqFt": null,
-            "propertyType": "apartment",
-            "specifications": {
-                "bedrooms": 4,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 1200
-            },
-            "agent": {
-                "name": "Samuel Palmer",
-                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/light-and-modern-apartment/",
-            "available": true
-        },
-        {
-            "id": 9,
-            "title": "New Home For Sale",
-            "address": "100 Chopin Plaza, Miami, FL 33131, USA",
-            "price": {
-                "amount": 459000,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": 2560,
-            "propertyType": "single-family-home",
-            "specifications": {
-                "bedrooms": 4,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 1200
-            },
-            "agent": {
-                "name": "Michelle Ramirez",
-                "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/new-home-for-sale/",
-            "available": false
-        },
-        {
-            "id": 11,
-            "title": "Guaranteed Modern Home",
-            "address": "905 Brickell Bay Dr, Miami, FL 33131, USA",
-            "price": {
-                "amount": 590000,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": 3500,
-            "propertyType": "single-family-home",
-            "specifications": {
-                "bedrooms": 3,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 3410
-            },
-            "agent": {
-                "name": "Samuel Palmer",
-                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/guaranteed-modern-home/",
-            "available": false
-        },
-        {
-            "id": 12,
-            "title": "Historic Villa",
-            "address": "3401 NW 7th Ave, Miami, FL 33127, USA",
-            "price": {
-                "amount": 3700000,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": 9900,
-            "propertyType": "villa",
-            "specifications": {
-                "bedrooms": 2,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 2170
-            },
-            "agent": {
-                "name": "Michelle Ramirez",
-                "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/historic-villa/",
-            "available": false
-        },
-        {
-            "id": 13,
-            "title": "Villa With Pool For Sale",
-            "address": "3606 NW 5 Ave, Miami, FL 33127, USA",
-            "price": {
-                "amount": 3900000,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": 17500,
-            "propertyType": "villa",
-            "specifications": {
-                "bedrooms": 5,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 3450
-            },
-            "agent": {
-                "name": "Michelle Ramirez",
-                "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/villa-with-pool-for-sale/",
-            "available": false
-        },
-        {
-            "id": 14,
-            "title": "Villa Relaxing Green View",
-            "address": "500 NW 36th St, Miami, FL 33127, USA",
-            "price": {
-                "amount": 7599000,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": 18900,
-            "propertyType": "villa",
-            "specifications": {
-                "bedrooms": 3,
-                "bathrooms": 2,
-                "garage": 1,
-                "sqFt": 2540
-            },
-            "agent": {
-                "name": "Michelle Ramirez",
-                "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/villa-relaxing-green-view/",
-            "available": false
-        },
-        {
-            "id": 15,
-            "title": "Complex",
-            "address": "2195 SW 8th St, Miami, FL 33135, USA",
-            "price": {
-                "amount": 5600,
-                "currency": "USD",
-                "period": "month"
-            },
-            "pricePerSqFt": null,
-            "propertyType": "apartment",
-            "specifications": {
-                "bedrooms": 5,
-                "bathrooms": 3,
-                "garage": 1,
-                "sqFt": 3450
-            },
-            "agent": {
-                "name": "Brittany Watkins",
-                "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/complex/",
-            "available": true
-        },
-        {
-            "id": 17,
-            "title": "Green View Design",
-            "address": "621 Beacom Blvd, Miami, FL 33135, USA",
-            "price": {
-                "amount": 3500,
-                "currency": "USD",
-                "period": "month"
-            },
-            "pricePerSqFt": null,
-            "propertyType": "apartment",
-            "specifications": {
-                "bedrooms": 1,
-                "bathrooms": 1,
-                "garage": 1,
-                "sqFt": 1760
-            },
-            "agent": {
-                "name": "Brittany Watkins",
-                "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/green-view-design/",
-            "available": true
-        },
-        {
-            "id": 18,
-            "title": "Modern Loft Apartment",
-            "address": "2450 SW 1st St, Miami, FL 33135, USA",
-            "price": {
-                "amount": 3750,
-                "currency": "USD",
-                "period": "month"
-            },
-            "pricePerSqFt": null,
-            "propertyType": "apartment",
-            "specifications": {
-                "bedrooms": 1,
-                "bathrooms": 1,
-                "garage": 1,
-                "sqFt": 1678
-            },
-            "agent": {
-                "name": "Michelle Ramirez",
-                "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=96&h=96&q=80",
-                "timeAgo": "7 years ago"
-            },
-            "images": [
-                "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
-                "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
-            ],
-            "url": "https://demo01.houzez.co/property/modern-loft-apartment/",
-            "available": true
-        },
-        {
-            "id": 19,
+            "id": 1,
             "title": "Residencia contemporánea en Los Laureles",
             "address": "Los Laureles, Escazú, San José, Costa Rica",
             "price": {
@@ -416,12 +106,23 @@
                 ]
             },
             "agent": null,
-            "images": [],
+            "images": [
+                "/images/properties/los-laureles/los-laureles-01.jpeg",
+                "/images/properties/los-laureles/los-laureles-02.jpeg",
+                "/images/properties/los-laureles/los-laureles-03.jpeg",
+                "/images/properties/los-laureles/los-laureles-04.jpeg",
+                "/images/properties/los-laureles/los-laureles-05.jpeg",
+                "/images/properties/los-laureles/los-laureles-06.jpeg",
+                "/images/properties/los-laureles/los-laureles-07.jpeg",
+                "/images/properties/los-laureles/los-laureles-08.jpeg",
+                "/images/properties/los-laureles/los-laureles-09.jpeg",
+                "/images/properties/los-laureles/los-laureles-10.jpeg"
+            ],
             "url": null,
             "available": null
         },
         {
-            "id": 20,
+            "id": 2,
             "title": "Residencia de lujo en Alto de Las Palomas",
             "address": "Alto de Las Palomas, San Rafael de Escazú, San José, Costa Rica",
             "price": {
@@ -532,98 +233,29 @@
                 ]
             },
             "agent": null,
-            "images": [],
-            "url": null,
-            "available": null
-        },
-        {
-            "id": 21,
-            "title": "Residencia remodelada en Hacienda del Sol",
-            "address": "Condominio Hacienda del Sol, Santa Ana, San José, Costa Rica",
-            "price": {
-                "amount": 999999,
-                "currency": "USD",
-                "period": null
-            },
-            "pricePerSqFt": null,
-            "propertyType": "house",
-            "specifications": {
-                "bedrooms": 4,
-                "serviceBedrooms": 1,
-                "bathrooms": 5,
-                "halfBathrooms": null,
-                "serviceBathrooms": null,
-                "garage": 6,
-                "coveredGarage": null,
-                "sqFt": null,
-                "constructionArea": null,
-                "landArea": null,
-                "floors": null
-            },
-            "facts": [
-                {
-                    "icon": "bedrooms",
-                    "label": "Dormitorios principales",
-                    "value": 4,
-                    "unit": ""
-                },
-                {
-                    "icon": "bedrooms",
-                    "label": "Habitación de servicio",
-                    "value": 1,
-                    "unit": ""
-                },
-                {
-                    "icon": "bathrooms",
-                    "label": "Baños completos",
-                    "value": 5,
-                    "unit": ""
-                },
-                {
-                    "icon": "parking",
-                    "label": "Capacidad de estacionamiento",
-                    "value": 6,
-                    "unit": "vehículos"
-                },
-                {
-                    "icon": "security",
-                    "label": "Seguridad",
-                    "value": "24/7",
-                    "unit": ""
-                }
+            "images": [
+                "/images/properties/alto-de-las-palomas/2qw.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-10.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-11.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-12.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-13.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-16.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-9.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-palo-8.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-paloma-3.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-paloma-4.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-paloma-5.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-paloma-6.jpeg",
+                "/images/properties/alto-de-las-palomas/alto-paloma-7.jpeg",
+                "/images/properties/alto-de-las-palomas/alto14.jpeg",
+                "/images/properties/alto-de-las-palomas/alto15.jpeg",
+                "/images/properties/alto-de-las-palomas/WhatsApp Image 2026-10-15 at 10.05.56 AM.jpeg"
             ],
-            "description": {
-                "summary": "Residencia completamente remodelada en el exclusivo condominio Hacienda del Sol. Combina arquitectura moderna, acabados de primera línea, distribución funcional y abundante luz natural.",
-                "sections": [
-                    {
-                        "title": "Distribución y confort",
-                        "paragraphs": [
-                            "La suite principal está en la planta baja. Las habitaciones secundarias cuentan con baño completo y terraza privada.",
-                            "La casa incluye sala familiar, lavandería y ático para almacenamiento."
-                        ]
-                    },
-                    {
-                        "title": "Amenidades del condominio",
-                        "paragraphs": [
-                            "La comunidad ofrece casa club con piscina y jacuzzi, gimnasio, canchas de tenis, parque infantil y zonas verdes."
-                        ]
-                    },
-                    {
-                        "title": "Seguridad y ubicación",
-                        "paragraphs": [
-                            "El residencial cuenta con vigilancia y control de acceso.",
-                            "Su ubicación en Santa Ana ofrece conectividad con los servicios y comercios de la zona oeste."
-                        ]
-                    }
-                ]
-            },
-            "agent": null,
-            "images": [],
             "url": null,
             "available": null
         },
         {
-            "id": 22,
+            "id": 4,
             "title": "Villa Neo Classic en Eco Residencial Villa Real",
             "address": "Pozos, Santa Ana, San José, Costa Rica",
             "price": {
@@ -716,12 +348,26 @@
                 ]
             },
             "agent": null,
-            "images": [],
+            "images": [
+                "/images/properties/eco-residencial-villa-real/eco-5.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco-8.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco-9.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco10.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco11.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco12.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco13.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco2.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco3.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco4.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco6.jpeg",
+                "/images/properties/eco-residencial-villa-real/eco7.jpeg",
+                "/images/properties/eco-residencial-villa-real/WhatsApp Image 2026-10-15 at 10.26.19 AM.jpeg"
+            ],
             "url": null,
             "available": null
         },
         {
-            "id": 23,
+            "id": 5,
             "title": "Residencia remodelada en Piedades",
             "address": "Piedades, Santa Ana, San José, Costa Rica",
             "price": {
@@ -827,12 +473,25 @@
                 ]
             },
             "agent": null,
-            "images": [],
+            "images": [
+                "/images/properties/piedades/Piedades1.jpeg",
+                "/images/properties/piedades/Piedades10.jpeg",
+                "/images/properties/piedades/Piedades11.jpeg",
+                "/images/properties/piedades/Piedades12.jpeg",
+                "/images/properties/piedades/Piedades2.jpeg",
+                "/images/properties/piedades/Piedades3.jpeg",
+                "/images/properties/piedades/Piedades4.jpeg",
+                "/images/properties/piedades/Piedades5.jpeg",
+                "/images/properties/piedades/Piedades6.jpeg",
+                "/images/properties/piedades/Piedades7.jpeg",
+                "/images/properties/piedades/Piedades8.jpeg",
+                "/images/properties/piedades/Piedades9.jpeg"
+            ],
             "url": null,
             "available": null
         },
         {
-            "id": 24,
+            "id": 6,
             "title": "Residencia contemporánea en Guachipelín",
             "address": "Guachipelín, Escazú, San José, Costa Rica",
             "price": {
@@ -913,12 +572,31 @@
                 ]
             },
             "agent": null,
-            "images": [],
+            "images": [
+                "/images/properties/guachipelin/1.jpeg",
+                "/images/properties/guachipelin/2.jpeg",
+                "/images/properties/guachipelin/3.jpeg",
+                "/images/properties/guachipelin/4.jpeg",
+                "/images/properties/guachipelin/5.jpeg",
+                "/images/properties/guachipelin/6.jpeg",
+                "/images/properties/guachipelin/7.jpeg",
+                "/images/properties/guachipelin/8.jpeg",
+                "/images/properties/guachipelin/9.jpeg",
+                "/images/properties/guachipelin/10.jpeg",
+                "/images/properties/guachipelin/11.jpeg",
+                "/images/properties/guachipelin/12.jpeg",
+                "/images/properties/guachipelin/13.jpeg",
+                "/images/properties/guachipelin/14.jpeg",
+                "/images/properties/guachipelin/15.jpeg",
+                "/images/properties/guachipelin/16.jpeg",
+                "/images/properties/guachipelin/17.jpeg",
+                "/images/properties/guachipelin/18.jpeg"
+            ],
             "url": null,
             "available": null
         },
         {
-            "id": 25,
+            "id": 7,
             "title": "Residencia de estilo morisco en Alto de Las Palomas",
             "address": "Alto de Las Palomas, Escazú, San José, Costa Rica",
             "price": {
@@ -1009,12 +687,27 @@
                 ]
             },
             "agent": null,
-            "images": [],
+            "images": [
+                "/images/properties/alto-de-las-paloor/1.jpeg",
+                "/images/properties/alto-de-las-paloor/2.jpeg",
+                "/images/properties/alto-de-las-paloor/3.jpeg",
+                "/images/properties/alto-de-las-paloor/4.jpeg",
+                "/images/properties/alto-de-las-paloor/5.jpeg",
+                "/images/properties/alto-de-las-paloor/6.jpeg",
+                "/images/properties/alto-de-las-paloor/7.jpeg",
+                "/images/properties/alto-de-las-paloor/8.jpeg",
+                "/images/properties/alto-de-las-paloor/9.jpeg",
+                "/images/properties/alto-de-las-paloor/10.jpeg",
+                "/images/properties/alto-de-las-paloor/11.jpeg",
+                "/images/properties/alto-de-las-paloor/12.jpeg",
+                "/images/properties/alto-de-las-paloor/13.jpeg",
+                "/images/properties/alto-de-las-paloor/14.jpeg"
+            ],
             "url": null,
             "available": null
         },
         {
-            "id": 26,
+            "id": 8,
             "title": "Mansión de campo en Bello Horizonte",
             "address": "Bello Horizonte, Escazú, San José, Costa Rica",
             "price": {
@@ -1141,7 +834,17 @@
                 ]
             },
             "agent": null,
-            "images": [],
+            "images": [
+                "/images/properties/bello-horizonte/1.jpeg",
+                "/images/properties/bello-horizonte/2.jpeg",
+                "/images/properties/bello-horizonte/3.jpeg",
+                "/images/properties/bello-horizonte/4.jpeg",
+                "/images/properties/bello-horizonte/5.jpeg",
+                "/images/properties/bello-horizonte/6.jpeg",
+                "/images/properties/bello-horizonte/7.jpeg",
+                "/images/properties/bello-horizonte/8.jpeg",
+                "/images/properties/bello-horizonte/9.jpeg"
+            ],
             "url": null,
             "available": null
         }

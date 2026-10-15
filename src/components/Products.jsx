@@ -1,6 +1,6 @@
 
 // import { useFilters } from '../hooks/useFilter';
-import Filter from './Filter';
+// import Filter from './Filter';
 import { useFilters } from '../hooks/useFilter';
 import { FiltersContext } from '../contexts/FiltersContext';
 import { useContext } from 'react';
@@ -29,7 +29,7 @@ export default function Products() {
         </div>
         <span className="properties-count">{filtedProducts.length} propiedades</span>
       </header>
-      <Filter />
+      {/* <Filter /> */}
 
       <ul className="properties-grid">
         {
