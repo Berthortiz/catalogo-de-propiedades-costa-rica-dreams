@@ -17,7 +17,7 @@ export default function WhatsAppButton({ property, className }) {
     return (
         <a
             className={className}
-            href={`https://wa.me/?text=${encodeURIComponent(message.join("\n"))}`}
+            href={`https://wa.me/50663964070?text=${encodeURIComponent(message.join("\n"))}`}
             target="_blank"
             rel="noreferrer"
             aria-label={`Consultar ${property.title} por WhatsApp`}

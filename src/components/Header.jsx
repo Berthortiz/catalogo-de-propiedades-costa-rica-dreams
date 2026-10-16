@@ -9,7 +9,7 @@ const links = [
     // { href: "https://www.paypal.com/ncp/payment/R2QJS8AAF58S2", label: "PayPal", external: true },
 ];
 
-const contactUrl = "https://wa.me/50662400129";
+const contactUrl = "https://wa.me/50663964070";
 
 function Header() {
     const [menuOpen, setMenuOpen] = useState(false);

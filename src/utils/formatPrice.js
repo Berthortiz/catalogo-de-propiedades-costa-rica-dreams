@@ -5,5 +5,5 @@ export const formatPrice = ({ amount, currency = "USD", period }) => {
         maximumFractionDigits: 0
     }).format(amount)
 
-    return period === "month" ? `${formattedPrice} / mo` : formattedPrice
+    return period === "month" ? `${formattedPrice} / Mes` : formattedPrice
 }
