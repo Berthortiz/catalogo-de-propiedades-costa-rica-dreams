@@ -2,7 +2,7 @@
     --btn-bg: rgba(255, 255, 255, 0.05);
     --btn-border: rgba(255, 255, 255, 0.1);
     --btn-text: #d4d4d4;
-    --btn-glow: rgba(184, 134, 11, 0);
+    --btn-glow: rgba(4, 120, 87, 0);
 
     display: inline-flex;
     align-items: center;
@@ -115,16 +115,16 @@
 
 .glass-btn--ghost {
     --btn-bg: transparent;
-    --btn-text: var(--color-primary, #d4a017);
-    --btn-border: rgba(184, 134, 11, 0.25);
-    --btn-glow: rgba(184, 134, 11, 0.15);
+    --btn-text: var(--color-primary);
+    --btn-border: color-mix(in srgb, var(--color-primary) 25%, transparent);
+    --btn-glow: color-mix(in srgb, var(--color-primary) 15%, transparent);
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
 }
 
 .glass-btn--ghost:hover:not(:disabled) {
-    background: rgba(184, 134, 11, 0.08);
-    border-color: rgba(184, 134, 11, 0.4);
+    background: color-mix(in srgb, var(--color-primary) 8%, transparent);
+    border-color: color-mix(in srgb, var(--color-primary) 40%, transparent);
 }
 
 /* Sizes — solo cambian el padding; la tipografía es uniforme */

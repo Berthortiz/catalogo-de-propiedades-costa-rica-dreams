@@ -65,7 +65,7 @@
 }
 
 .galleryProducts__thumbnail.is-active {
-    border-color: #a34e3b;
+    border-color: var(--color-primary);
 }
 
 .galleryProducts__thumbnail img {
@@ -91,7 +91,7 @@
 }
 
 .galleryProducts__slider .swiper-pagination-bullet-active {
-    background: #a34e3b;
+    background: var(--color-primary);
 }
 
 @media (max-width: 760px) {

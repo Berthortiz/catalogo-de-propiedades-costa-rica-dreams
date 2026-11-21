@@ -33,7 +33,7 @@
 }
 
 .cities-index__province {
-    color: #a34e3b;
+    color: var(--color-primary);
     font-size: .72rem;
     font-weight: 700;
     letter-spacing: .12em;
@@ -47,7 +47,7 @@
 }
 
 .cities-index__link:hover .cities-index__name {
-    color: #a34e3b;
+    color: var(--color-primary);
 }
 
 .cities-index__count {

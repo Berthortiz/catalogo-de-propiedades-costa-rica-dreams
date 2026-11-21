@@ -3,7 +3,7 @@
 :root {
   color-scheme: light;
   /* El primario apunta al tono base de la paleta verde (definida en @theme) */
-  --color-primary: var(--color-primary-700);
+  --color-primary: #047857;
   --width-cart: 24em;
 }
 

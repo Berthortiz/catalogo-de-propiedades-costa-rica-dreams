@@ -12,7 +12,7 @@
 }
 
 .properties-eyebrow {
-    color: #a34e3b;
+    color: var(--color-primary);
     font-size: .72rem;
     font-weight: 700;
     letter-spacing: .12em;
@@ -177,7 +177,7 @@
 }
 
 .property-body h2 a:hover {
-    color: #a34e3b;
+    color: var(--color-primary);
 }
 
 .property-address {
@@ -221,7 +221,7 @@
 
 .property-fact>svg {
     flex: 0 0 20px;
-    color: #a34e3b;
+    color: var(--color-primary);
 }
 
 .property-fact__text {

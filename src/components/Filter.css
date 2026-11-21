@@ -34,7 +34,7 @@ input {
 .filter-reset:hover:not(:disabled) {
     color: var(--color-primary);
     border-color: var(--color-primary);
-    background-color: #fff7f2;
+    background-color: color-mix(in srgb, var(--color-primary) 8%, #ffffff);
 }
 
 .filter-reset:disabled {

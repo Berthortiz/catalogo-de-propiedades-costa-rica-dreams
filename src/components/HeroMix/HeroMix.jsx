@@ -23,7 +23,7 @@ import GlassButton from "../GlassButton";
 import "./HeroMix.css";
 
 const contactMessage =
-    "Hola, quiero más información sobre las propiedades disponibles en Costa Rica Dreams. ¿Podrían ayudarme a encontrar una propiedad para comprar o alquilar?";
+    "Hola, quiero más información sobre las propiedades disponibles en Costa Rica Dreams. ¿Podrían ayudarme a encontrar una propiedad para alquilar?";
 const contactUrl = `https://wa.me/50663964070?text=${encodeURIComponent(contactMessage)}`;
 
 const STATS = [

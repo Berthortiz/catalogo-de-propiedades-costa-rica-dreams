@@ -1,0 +1,121 @@
+.not-found-page {
+    min-height: 70vh;
+    background: #ffffff;
+}
+
+.not-found-hero {
+    min-height: 420px;
+    display: grid;
+    place-items: center;
+    padding: 4rem 1.5rem;
+    background: #ffffff;
+    color: #202832;
+    text-align: center;
+}
+
+.not-found-hero__content {
+    max-width: 720px;
+}
+
+.not-found-hero__eyebrow {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.not-found-hero__code {
+    margin: 0.5rem 0 0;
+    color: rgba(4, 120, 87, 0.09);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(7rem, 20vw, 12rem);
+    font-weight: 800;
+    line-height: 0.82;
+}
+
+.not-found-hero h1 {
+    margin: 1.25rem 0 0.75rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.05;
+}
+
+.not-found-hero__text {
+    max-width: 590px;
+    margin: 0 auto;
+    color: #68717b;
+    line-height: 1.7;
+}
+
+.not-found-hero__actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+}
+
+.not-found-button {
+    display: inline-flex;
+    min-height: 48px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #dfe5e2;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.not-found-button:hover {
+    transform: translateY(-2px);
+}
+
+.not-found-button--primary {
+    background: var(--color-primary);
+    color: #ffffff;
+}
+
+.not-found-button--secondary {
+    background: #ffffff;
+    color: #202832;
+}
+
+.not-found-filter {
+    position: relative;
+    z-index: 10;
+}
+
+.not-found-filter .filter-search-container {
+    margin: 24px auto 0;
+}
+
+@media (max-width: 768px) {
+    .not-found-hero {
+        min-height: 390px;
+        padding: 3.5rem 1rem;
+    }
+
+    .not-found-hero__code {
+        font-size: 7rem;
+    }
+
+    .not-found-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .not-found-hero__actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .not-found-button {
+        width: 100%;
+    }
+
+    .not-found-filter .filter-search-container {
+        margin: 16px auto 8px;
+    }
+}
