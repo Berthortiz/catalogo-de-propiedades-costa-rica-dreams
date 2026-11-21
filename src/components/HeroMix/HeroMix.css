@@ -1,0 +1,69 @@
+.hero-mix {
+    /* Tokens locales del hero: primario de la tienda y tinta para el texto
+       sobre el overlay claro */
+    --color-primario: var(--color-primary, #047857);
+    --color-ink: #0a0b0e;
+}
+
+.hero-mix__bg {
+    filter: contrast(120%);
+}
+
+.hero-mix__ink {
+    color: var(--color-ink);
+}
+
+.hero-mix__accent {
+    background-color: var(--color-primario);
+}
+
+.hero-mix__accent-text {
+    color: var(--color-primario);
+}
+
+/* Contador de estadísticas */
+.hero-stats__item--divided {
+    border-left: 1px solid color-mix(in srgb, var(--color-ink) 25%, transparent);
+}
+
+.hero-stats__label {
+    color: color-mix(in srgb, var(--color-ink) 60%, transparent);
+}
+
+.hero-mix__overlay {
+    background:
+        radial-gradient(ellipse 80% 50% at 10% 75%,
+            rgba(254, 254, 254, 0.95) 0%,
+            rgba(255, 248, 248, 0) 70%),
+        radial-gradient(ellipse 99% 60% at 30% 30%,
+            rgba(254, 254, 254, 0.55) 0%,
+            rgba(255, 248, 248, 0) 70%);
+}
+
+/* Contraste móvil en la zona superior, donde se colocan las letras */
+@media (max-width: 767px) {
+    .hero-mix__overlay {
+        background:
+            linear-gradient(to bottom,
+                rgba(255, 255, 255, 0.42) 0%,
+                rgba(255, 255, 255, 0.68) 18%,
+                rgba(255, 255, 255, 0.48) 42%,
+                rgba(255, 255, 255, 0) 58%);
+    }
+}
+
+/* Tablet (ancho mínimo de 768px) */
+@media (min-width: 768px) {
+    .hero-mix__overlay {
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+}
+
+/* PC / Laptop (ancho mínimo de 1024px) */
+@media (min-width: 1024px) {
+    .hero-mix__overlay {
+        backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }
+}

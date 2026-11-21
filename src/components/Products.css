@@ -309,12 +309,74 @@
         padding-left: 1rem;
     }
 
+    .properties-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .35rem;
+        padding: 1rem 0 1.25rem;
+    }
+
     .properties-heading h1 {
         font-size: 1.7rem;
+        line-height: 1.15;
+    }
+
+    .properties-count {
+        padding-bottom: 0;
     }
 
     .properties-grid {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+}
+
+/* Mensaje cuando ningún filtro produce coincidencias */
+.properties-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 3rem 1rem;
+    text-align: center;
+    background-color: #f8fafc;
+    border: 1px dashed #cbd5e1;
+    border-radius: 12px;
+}
+
+.properties-empty p {
+    margin: 0;
+    font-size: 1.05rem;
+    color: #64748b;
+}
+
+.properties-empty__reset {
+    border-color: #cbd5e1;
+    font-size: 14px;
+}
+
+/* Sugerencias cuando ningún filtro produce coincidencias */
+.properties-similar {
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px dashed #cbd5e1;
+    text-align: left;
+}
+
+.properties-similar__title {
+    margin: 0 0 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+.properties-similar__title::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin-top: 6px;
+    background-color: var(--color-primary);
+    border-radius: 2px;
 }

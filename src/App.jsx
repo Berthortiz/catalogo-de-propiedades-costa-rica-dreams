@@ -1,26 +1,15 @@
-// import { useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import Header from './components/Header'
 import './App.css'
 
-
-
 function App() {
+  const { pathname } = useLocation()
+  const isIndependentCityPage = /^\/ciudades\/[^/]+\/?$/.test(pathname)
 
   return (
-
     <>
-      <Header></Header>
-
-      {/* <div className='Wrapper relative w-[1280px] m-auto px-12'>      </div> */}
-
+      {!isIndependentCityPage && <Header />}
     </>
-
-
-
-
-
-
-
   )
 }
 

@@ -1,12 +1,16 @@
-import SliderPropiedades from "../../components/SliderPropiedades/SliderPropiedades";
+import HeroMix from "../../components/HeroMix/HeroMix";
+import FilterSearch from "../../components/FilterSearch/FilterSearch";
+import HomeProperties from "../../components/HomeProperties";
 
 export default function HomePage() {
 
     return (
-        <div className="">
-            <main className="">
-                <SliderPropiedades></SliderPropiedades>
+        <>
+            <HeroMix></HeroMix>
+            <FilterSearch></FilterSearch>
+            <main>
+                <HomeProperties></HomeProperties>
             </main>
-        </div>
+        </>
     )
 }

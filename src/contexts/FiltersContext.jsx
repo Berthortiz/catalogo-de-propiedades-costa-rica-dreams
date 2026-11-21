@@ -5,8 +5,13 @@ import { useFetchProducts } from "../hooks/useFetchProducts."
 
 export const FiltersContext = createContext()
 
-
-console.log('Sin errore hasta aqui filter context');
+// Estado inicial de los filtros — compartido por el provider y el botón de reset
+export const DEFAULT_FILTERS = {
+    propertyType: 'all',
+    province: 'all',
+    city: 'all',
+    priceTier: 'all'
+}
 
 // eslint-disable-next-line react/prop-types
 export function FilterProvider({ children }) {
@@ -14,11 +19,7 @@ export function FilterProvider({ children }) {
     const { products } = useFetchProducts()
 
 
-    const [filters, setFilters] = useState({
-        category: 'all',
-        availability: 'all',
-        price: 0
-    })
+    const [filters, setFilters] = useState(DEFAULT_FILTERS)
 
 
 
