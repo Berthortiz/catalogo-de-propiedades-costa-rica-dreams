@@ -847,6 +847,1108 @@
             ],
             "url": null,
             "available": null
+        },
+        {
+            "id": 9,
+            "title": "Casa con piscina en Pozos de Santa Ana",
+            "address": "Pozos, Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 4200,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "serviceBedrooms": 1,
+                "ensuiteBedrooms": 1,
+                "bathrooms": 3,
+                "halfBathrooms": 1,
+                "serviceBathrooms": 1,
+                "garage": 4,
+                "coveredGarage": 4,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 275,
+                "landArea": null,
+                "floors": 1,
+                "terraces": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "3 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueo de visitas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 275,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terraza techada",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscina",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Zona de BBQ",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Play de niños",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Parque de mascotas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de un solo nivel con piscina en Pozos de Santa Ana. Dispone de 275 m² de construcción, cochera techada para cuatro vehículos y amenidades de condominio como gimnasio, play de niños, parque de mascotas y seguridad 24/7.",
+                "sections": [
+                    {
+                        "title": "Interiores",
+                        "paragraphs": [
+                            "Recibidor, sala con aire acondicionado y cocina con amplio desayunador; incluye plantilla, extractor de grasa, microondas, horno y refrigerador.",
+                            "La habitación principal cuenta con aire acondicionado, walk-in closet, baño con doble lava-manos, cortinas roller up eléctricas y salida a la terraza.",
+                            "Dos habitaciones secundarias con closet, cortinas roller up eléctricas y baño completo, además de un patio interno de luz."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales y exteriores",
+                        "paragraphs": [
+                            "Terraza techada con piscina y zona de BBQ, ideal para compartir en familia.",
+                            "Cochera techada e independiente para cuatro vehículos."
+                        ]
+                    },
+                    {
+                        "title": "Servicios y seguridad",
+                        "paragraphs": [
+                            "Incluye 1/2 baño de visitas, cuarto de pilas con espacio de almacenamiento y cuarto de servicio con baño completo.",
+                            "El condominio ofrece parqueo de visitas, play de niños, gimnasio, área de BBQ, piscina, parque de mascotas y seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en Pozos de Santa Ana, cantón de Santa Ana, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-42-54.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-42-58.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-00.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-01.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-02.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-03.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-04.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-05.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-06.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-07.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-10.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-10 (2).jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-11.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-12.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-13.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-14.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-15.jpg",
+                "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-16.jpg"
+            ],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 10,
+            "title": "Casa en condominio en Pozos de Santa Ana",
+            "address": "Pozos, Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 4000,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "ensuiteBedrooms": 2,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "serviceBathrooms": 1,
+                "garage": 4,
+                "coveredGarage": 4,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 346,
+                "landArea": null,
+                "floors": 3,
+                "terraces": 1,
+                "storage": 3
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueo de visitas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 346,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terraza techada",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Bodegas",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscina",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Zona de BBQ",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Play de niños",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Parque de mascotas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa en condominio de tres niveles en Pozos de Santa Ana. Cuenta con 346 m² de construcción, cuatro parqueos techados, terraza con vista a las montañas y amenidades de condominio como piscina, gimnasio, play de niños y seguridad 24/7.",
+                "sections": [
+                    {
+                        "title": "Primer nivel",
+                        "paragraphs": [
+                            "Recibidor, bodega en el área de cochera y cuatro espacios de parqueo techados.",
+                            "Cuarto de servicio con baño completo y dos bodegas adicionales."
+                        ]
+                    },
+                    {
+                        "title": "Segundo nivel",
+                        "paragraphs": [
+                            "Amplia sala comedor con aire acondicionado y cocina con sobres en cuarzo, área de desayunador, plantilla eléctrica, extractor de grasa y torre de hornos.",
+                            "Espaciosa terraza techada con hermosa vista a las montañas, 1/2 baño de visitas, cuarto de pilas y jardín trasero."
+                        ]
+                    },
+                    {
+                        "title": "Tercer nivel",
+                        "paragraphs": [
+                            "Dos habitaciones master con walk-in closet, balcón con vista a las montañas y aire acondicionado.",
+                            "Dos habitaciones secundarias con closet, baño completo y aire acondicionado."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Parqueo de visitas, play de niños, gimnasio, área de BBQ, piscina, parque de mascotas y seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en Pozos de Santa Ana, cantón de Santa Ana, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-43.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-45.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-47.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-49.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-50.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-51.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-52.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-55.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-57.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-58-59.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-24.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-26.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-27.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-28.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-29.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-30.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-30 (2).jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-31.jpg",
+                "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-32.jpg"
+            ],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 11,
+            "title": "Casa de 3 habitaciones con sala de TV en Guachipelín",
+            "address": "Guachipelín, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 2500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "serviceBedrooms": null,
+                "ensuiteBedrooms": 1,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "serviceBathrooms": null,
+                "garage": 4,
+                "coveredGarage": 2,
+                "openGarage": 2,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 199,
+                "landArea": null,
+                "floors": 2,
+                "balcony": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos descubiertos",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 199,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Balcón",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscinas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Jacuzzi y sauna",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Cancha de fútbol y tenis",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Co-working",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Parque de mascotas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de 3 habitaciones con sala de TV en el condominio 3-10 de Guachipelín. Cuenta con 199 m² de construcción distribuidos en dos niveles, cochera para cuatro vehículos con toma de 220 V para carro eléctrico, jardín trasero y acceso a las amenidades del condominio.",
+                "sections": [
+                    {
+                        "title": "Primer nivel",
+                        "paragraphs": [
+                            "Cochera techada para 2 vehículos y 2 sin techar, con toma de 220 V para carro eléctrico.",
+                            "Amplia sala comedor, 1/2 baño de visitas y cocina amplia con sobres en cuarzo blanco, espacioso desayunador e incluye horno, plantilla, microondas con extractor de grasa, refrigerador y lavaplatos.",
+                            "Cuarto de pilas con espacio para lavadora y secadora, y jardín trasero."
+                        ]
+                    },
+                    {
+                        "title": "Segundo nivel",
+                        "paragraphs": [
+                            "Sala de TV.",
+                            "Habitación principal con cortinas black out, techos altos, aire acondicionado, balcón, baño completo con doble lava-manos con luz led, ático y walk-in closet.",
+                            "Dos habitaciones secundarias con cortinas, aire acondicionado y cada una con su closet. Comparten un baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Gimnasio completamente equipado, gimnasio de cross-fit, sala de pilates, sala de masajes, sauna y jacuzzi.",
+                            "Piscinas recreativas y de relajación, cancha de fútbol, cancha de tenis, ranchos con zona de BBQ y fire-pit.",
+                            "Co-working, guardería, salas de juegos para niños y adultos, mini súper, parque de mascotas, parqueo de visitas y seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en Guachipelín, cantón de Escazú, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/salatv/photo_2026-11-24_14-02-27.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-29.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-34.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-38.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-37.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-35.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-31.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-32.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-36.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-39.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-51.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-52.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-57 (2).jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-56.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-57.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-54.jpg",
+                "/images/properties/salatv/photo_2026-11-24_14-02-58.jpg"
+            ],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 12,
+            "title": "Penthouse amueblado de 2 habitaciones en Dukana, Guachipelín",
+            "address": "Guachipelín, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 2700,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "apartment",
+            "specifications": {
+                "bedrooms": 2,
+                "serviceBedrooms": null,
+                "ensuiteBedrooms": 2,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "serviceBathrooms": null,
+                "garage": 2,
+                "coveredGarage": 2,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 132.5,
+                "landArea": null,
+                "floors": 1,
+                "balcony": 1,
+                "terraces": 1,
+                "storage": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 132.5,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Balcón con vista",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terraza privada techada",
+                    "value": 10,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Bodega en sótano",
+                    "value": 4.15,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscina temperada",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Casa club",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Parque de mascotas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Penthouse completamente amueblado de 2 habitaciones en el Condominio DUKANA, Guachipelín de Escazú. Cuenta con 132.5 m² habitables en un solo nivel, balcón y terraza privada techada con hermosa vista a las montañas, dos parqueos techados independientes en sótano y acceso a las amenidades del condominio.",
+                "sections": [
+                    {
+                        "title": "Distribución",
+                        "paragraphs": [
+                            "Recibidor, 1/2 baño de visitas y espaciosa sala comedor con hermosa vista a las montañas y balcón con vista.",
+                            "Cocina con desayunador que incluye refrigerador, cocina, lavaplatos y microondas, además de espaciosa alacena y closet de blancos.",
+                            "Cuarto de pilas con centro de lavado en torre y closet."
+                        ]
+                    },
+                    {
+                        "title": "Habitaciones",
+                        "paragraphs": [
+                            "Habitación principal amplia con aire acondicionado, cortinas black out, baño completo con doble lava-manos, walk-in closet y closet adicional.",
+                            "Habitación secundaria amplia con su espacioso closet, baño completo, cortina y aire acondicionado."
+                        ]
+                    },
+                    {
+                        "title": "Exteriores y parqueo",
+                        "paragraphs": [
+                            "Terraza privada techada con hermosa vista y fregadero en la azotea, de aproximadamente 10 m².",
+                            "Bodega de 4.15 m² en sótano y dos espacios de parqueo techados e independientes en sótano, de 15.81 m² y 14.30 m²."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Piscina temperada con carril de nado, gimnasio, play de niños, casa club, zonas verdes y parque de mascotas.",
+                            "Parqueo de visitas y seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicado en el Condominio DUKANA, Guachipelín, cantón de Escazú, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.41 PM (1).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.41 PM.jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.42 PM.jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.43 PM (1).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.42 PM (1).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.42 PM (2).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.42 PM (3).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.42 PM (4).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.43 PM.jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.43 PM (2).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.43 PM (3).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.43 PM (4).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.44 PM.jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.44 PM (3).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.44 PM (1).jpeg",
+                "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.44 PM (2).jpeg"
+            ],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 13,
+            "title": "Exclusivo penthouse en condominio boutique en Nunciatura",
+            "address": "Nunciatura, Mata Redonda, San José, Costa Rica",
+            "price": {
+                "amount": 3500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "apartment",
+            "specifications": {
+                "bedrooms": 3,
+                "serviceBedrooms": null,
+                "ensuiteBedrooms": 3,
+                "bathrooms": 3,
+                "halfBathrooms": 1,
+                "serviceBathrooms": null,
+                "garage": 1,
+                "coveredGarage": 1,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 145,
+                "landArea": null,
+                "floors": 1,
+                "balcony": 1,
+                "terraces": null,
+                "storage": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "3 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 145,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "levels",
+                    "label": "Piso",
+                    "value": 6,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Balcón con vista al norte",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "A/C central",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueo de visitas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Sauna",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Co-working",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Sala de reuniones",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Ascensor",
+                    "value": 1,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Exclusivo penthouse en condominio boutique en Nunciatura, ubicado en piso 6 y con 145 m² de construcción habitable en un solo nivel. Cuenta con sala comedor de techos altos, aire acondicionado central, balcón con vista al norte de la capital, tres habitaciones, tres baños completos y medio baño de visitas, además de un parqueo techado y acceso a las amenidades del condominio.",
+                "sections": [
+                    {
+                        "title": "Distribución",
+                        "paragraphs": [
+                            "Sala comedor con techos altos, aire acondicionado central y balcón con vista al norte de la capital.",
+                            "1/2 baño de visitas.",
+                            "Cocina con amplia península que incluye refrigerador, horno, plantilla empotrada, extractor de grasa y lava-platos.",
+                            "Cuarto de pilas con centro de lavado en torre."
+                        ]
+                    },
+                    {
+                        "title": "Habitaciones",
+                        "paragraphs": [
+                            "Habitación principal con aire acondicionado central, amplio baño con doble lava-manos y walk-in closet.",
+                            "Dos habitaciones secundarias con walk-in closet y aire acondicionado; cada una cuenta con su baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Parqueo",
+                        "paragraphs": [
+                            "Un espacio de parqueo techado."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Sauna, lobby, parqueo de visitas, co-working, sala de reuniones, gimnasio y ascensor."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicado en Nunciatura, Mata Redonda, cantón de San José, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.38 PMASASDAS.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026ASDSDAS.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 aSADE3R3E.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.35 PMasdas.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.38 PM.jpeg",
+                "/images/properties/edificio-maron/WhatsApp ImagASDRE4RWEFT4.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31..jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.34 PM.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.35 PM.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-1SDASFASD.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.35 PMw.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.3ASDGHJJK.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.39 PM5464.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at .jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.38 PMASDASD.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 20ASDFASF.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.35 PMs.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 20ASD.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.36 PMasd.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.36 PMsdewew.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-.jpeg",
+                "/images/properties/edificio-maron/WhatsApp Image 2026-11-23 at 10.31.3asdadasf.jpeg",
+                "/images/properties/edificio-maron/ASFSDFVS.jpeg"
+            ],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 14,
+            "title": "Apartamento amueblado en la torre Sky Garden, Nunciatura",
+            "address": "Nunciatura, Mata Redonda, San José, Costa Rica",
+            "price": {
+                "amount": 1100,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "apartment",
+            "specifications": {
+                "bedrooms": 1,
+                "serviceBedrooms": null,
+                "ensuiteBedrooms": null,
+                "bathrooms": 1,
+                "halfBathrooms": null,
+                "serviceBathrooms": null,
+                "garage": null,
+                "coveredGarage": null,
+                "visitorParking": null,
+                "sqFt": null,
+                "constructionArea": null,
+                "landArea": null,
+                "floors": 1,
+                "balcony": 1,
+                "terraces": null,
+                "storage": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "1 completo",
+                    "unit": ""
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "levels",
+                    "label": "Piso",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Balcón",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Amueblado",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscina con carril de nado",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Jacuzzi",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Área de yoga",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Co-working",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Biblioteca",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Lounge",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Sala de juegos",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Sala de fiestas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Área de BBQ",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Fire-pit",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Parque de perros",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Ascensores",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Apartamento completamente amueblado en la torre Sky Garden, Nunciatura. Se ubica en el piso 3, es de un solo nivel y cuenta con sala con pantalla plana y vista a la ciudad, cocina con desayunador, balcón, una habitación con closet y un baño completo, además de acceso a las amenidades del condominio.",
+                "sections": [
+                    {
+                        "title": "Distribución",
+                        "paragraphs": [
+                            "Sala con pantalla plana y vista a la ciudad.",
+                            "Cocina con desayunador, sobres en cuarzo, plantilla eléctrica de 4 discos, extractor de grasa y refrigeradora.",
+                            "Balcón."
+                        ]
+                    },
+                    {
+                        "title": "Habitación y baño",
+                        "paragraphs": [
+                            "Una habitación con cama, cortinas tipo roller up y black out, y su closet.",
+                            "Un baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Área comercial con cafeterías y restaurantes, elegante lobby y 3 ascensores.",
+                            "Gimnasio, área de yoga, parque de perros, lounge, biblioteca, co-working, sala de juegos y sala de fiestas.",
+                            "Área de BBQ, fire-pit, jacuzzi y piscina con carril de nado.",
+                            "Seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicado en la torre Sky Garden, Nunciatura, Mata Redonda, cantón de San José, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.10 PM.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.12 PMsdfsdf.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.13 PMfghfgh.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.12 PMfds.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.13 ghjghjh.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.13 PMghjgj.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.13 PMdfgdfg.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.12 PMsdffdf.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.12 PMasdasd.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.12 PM.jpeg",
+                "/images/properties/dep-alto/uiouiooui.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.11 PMuiouio.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.11 PM‬uiouoi.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.10 PMrtrty.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.11 PMytuytu.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.11 PMyuiyu.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.10 PMwerwer.jpeg",
+                "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.10 PMwtwwe.jpeg"
+            ],
+            "url": null,
+            "available": null
         }
     ]
 }

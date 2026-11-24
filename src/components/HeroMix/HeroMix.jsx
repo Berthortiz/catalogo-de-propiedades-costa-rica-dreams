@@ -90,7 +90,7 @@ export default function HeroMix() {
                 >
                     <div className="flex w-full flex-col items-start justify-center font-sans md:max-w-2xl md:text-left lg:w-3/7 lg:max-w-none lg:px-0">
                         <span className="hero-mix__ink text-[.9em] font-light uppercase">
-                            El Espacio que Siempre Soñaste
+                            El espacio que siempre soñaste
                         </span>
                         <span className="hero-mix__accent my-2 h-[2px] w-[60px]" />
 
@@ -100,9 +100,9 @@ export default function HeroMix() {
                         </h1>
 
                         <p className="hero-mix__ink mb-3 font-light leading-relaxed md:text-[1em] lg:text-[.8em]">
-                            Espacio, luz natural y elegancia en un solo lugar. diseño
-                            moderno con comodidades de primer nivel. ¿Te imaginas viviendo
-                            aquí?
+                            Espacio, luz natural y elegancia en un solo lugar. Diseño
+                            moderno con comodidades de primer nivel. ¿Te imaginas
+                            viviendo aquí?
                         </p>
 
                         <div className="flex w-full flex-row flex-wrap items-center gap-3">
