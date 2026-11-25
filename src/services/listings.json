@@ -1967,6 +1967,419 @@
             ],
             "url": null,
             "available": null
+        },
+        {
+            "id": 15,
+            "title": "Casa de 3 habitaciones con mezzanine en Guachipelín",
+            "address": "Guachipelín, Escazú, San José, Costa Rica",
+            "price": {
+                "amount": 2650,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "serviceBedrooms": 1,
+                "ensuiteBedrooms": 1,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "serviceBathrooms": 1,
+                "garage": 2,
+                "coveredGarage": 2,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 280,
+                "landArea": null,
+                "floors": 3,
+                "balcony": null,
+                "terraces": 2,
+                "storage": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 de servicio + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 280,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terrazas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "storage",
+                    "label": "Bodegas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "laundry",
+                    "label": "Cuarto de pilas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "pool",
+                    "label": "Piscinas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "bbq",
+                    "label": "Ranchos con zona de BBQ",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "tennis",
+                    "label": "Cancha de tenis",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "garden",
+                    "label": "Zonas verdes",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueo de visitas",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de 3 habitaciones con línea blanca ubicada en Guachipelín de Escazú. Cuenta con 280 m² de construcción distribuidos en 3 niveles, cochera techada para 2 vehículos, jardín, terraza techada, cuarto de servicio y un mezzanine con A/C que puede funcionar como cuarta habitación u oficina, además de acceso a las amenidades del condominio.",
+                "sections": [
+                    {
+                        "title": "Primer nivel",
+                        "paragraphs": [
+                            "Sala comedor y 1/2 baño de visitas.",
+                            "Cochera techada para 2 vehículos y bodega.",
+                            "Cocina amplia con línea blanca.",
+                            "Terraza techada, otra pequeña sin techar y jardín.",
+                            "Cuarto de pilas con lavadora y secadora, patio de tendido y otra bodega interna.",
+                            "Cuarto de servicio con baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Segundo nivel",
+                        "paragraphs": [
+                            "Sala de TV con ventilador de techo.",
+                            "Habitación principal amplia con aire acondicionado, baño completo y walk-in closet.",
+                            "Dos habitaciones secundarias amplias con closet.",
+                            "Un baño completo que comparten las habitaciones secundarias."
+                        ]
+                    },
+                    {
+                        "title": "Tercer nivel",
+                        "paragraphs": [
+                            "Mezzanine con closet y aire acondicionado, que puede servir como cuarta habitación u oficina."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Dos piscinas y ranchos de fiesta con zona de BBQ.",
+                            "Cancha de tenis, amplias zonas verdes y parqueo de visitas.",
+                            "Seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en Guachipelín, cantón de Escazú, provincia de San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-15.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-24 (2).jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-23.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-24.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-25.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-26.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-27 (2).jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-27.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-28.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-29 (2).jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-29.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-31 (2).jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-31.jpg",
+                "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-30.jpg"
+            ],
+            "url": null,
+            "available": null
+        },
+        {
+            "id": 16,
+            "title": "Apartamento tipo loft en la Torre Q-BO, Rohrmoser",
+            "address": "Rohrmoser, Pavas, San José, Costa Rica",
+            "price": {
+                "amount": 1350,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "apartment",
+            "specifications": {
+                "bedrooms": 1,
+                "serviceBedrooms": null,
+                "ensuiteBedrooms": null,
+                "bathrooms": 1,
+                "halfBathrooms": 1,
+                "serviceBathrooms": null,
+                "garage": 1,
+                "coveredGarage": 1,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": null,
+                "landArea": null,
+                "floors": 2,
+                "balcony": null,
+                "terraces": null,
+                "storage": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "1 completo + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueo techado en sótano",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "storage",
+                    "label": "Bodega",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "levels",
+                    "label": "Pisos",
+                    "value": "8 y 9",
+                    "unit": ""
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "climate",
+                    "label": "A/C en habitación",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Línea blanca incluida",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "pool",
+                    "label": "Piscinas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "jacuzzi",
+                    "label": "Jacuzzis",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "sauna",
+                    "label": "Sauna",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "steamRoom",
+                    "label": "Baño de vapor",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "gym",
+                    "label": "Gimnasios",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "cardio",
+                    "label": "Cardio lounge",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "yoga",
+                    "label": "Yoga deck",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "coworking",
+                    "label": "Co-working",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "skybar",
+                    "label": "Skybar",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "concierge",
+                    "label": "Concierge 24/7",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "kids",
+                    "label": "Play de niños",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "library",
+                    "label": "Biblioteca",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "party",
+                    "label": "Party room",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "elevator",
+                    "label": "Elevadores",
+                    "value": "Más de 4",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueo de visitas",
+                    "value": 1,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Apartamento tipo loft en la Torre Q-BO, en el corazón de Rohrmoser. Se ubica en los pisos 8 y 9 con vista a la piscina, cuenta con cocina con sobres en cuarzo y mueble desayunador, 1 1/2 baños, habitación en el segundo nivel con walk-in closet, aire acondicionado y cortinas roller up y black out eléctricas y manuales, un parqueo en sótano y una bodega. Incluye refrigeradora, centro de lavado en torre y cocina.",
+                "sections": [
+                    {
+                        "title": "Distribución",
+                        "paragraphs": [
+                            "Cocina con sobres en cuarzo y mueble desayunador.",
+                            "1 1/2 baños.",
+                            "Habitación en el segundo nivel con walk-in closet, aire acondicionado y cortinas tipo roller up y black out eléctricas y manuales.",
+                            "Incluye refrigeradora, centro de lavado en torre y cocina.",
+                            "Un espacio de cochera en sótano y una bodega."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Skybar en piso 16 con un lujoso bar tipo inglés en forma de cubo suspendido.",
+                            "Elegante lobby con servicio de concierge 24/7 y salas de reuniones tipo co-working.",
+                            "Dos gimnasios, cardio lounge, yoga deck, sauna y baño de vapor.",
+                            "Amplia piscina temperada, piscina semi olímpica y dos jacuzzis.",
+                            "Play de niños, biblioteca, party room, amplio parqueo de visitas y más de 4 elevadores."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicado en el corazón de Rohrmoser, San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-39.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-43.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-44.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-45.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-45 (2).jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-41.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-40.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-52.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-42 (2).jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-42.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-43 (3).jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-51.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-50.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-47.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-48.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-55.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-53.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-46.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-49.jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-43 (2).jpg",
+                "/images/properties/edificio-mega/photo_2026-11-24_21-58-54.jpg"
+            ],
+            "url": null,
+            "available": null
         }
     ]
 }

@@ -12,17 +12,28 @@
  * menú existen solos, sin tocar código.
  */
 
-// Posiciones dentro de "Barrio, Cantón, Provincia, País"
+// Posiciones dentro de "Barrio, Cantón, Provincia, País". La provincia se
+// toma como el penúltimo segmento para tolerar direcciones a las que les
+// falte el barrio y evitar que el país ("Costa Rica") llegue al filtro.
 const ADDRESS_CITY_INDEX = 1
-const ADDRESS_PROVINCE_INDEX = 2
+const ADDRESS_COUNTRY = "costa rica"
 
 // Cantón/ciudad de la dirección ("Escazú", "Santa Ana", ...)
 export const getCity = (product) =>
     product.address?.split(",")[ADDRESS_CITY_INDEX]?.trim() ?? ""
 
 // Provincia de la dirección ("San José", "Guanacaste", ...)
-export const getProvince = (product) =>
-    product.address?.split(",")[ADDRESS_PROVINCE_INDEX]?.trim() ?? ""
+export const getProvince = (product) => {
+    const parts = product.address
+        ?.split(",")
+        .map((part) => part.trim())
+        .filter(Boolean) ?? []
+
+    if (parts.length < 3) return ""
+
+    const province = parts[parts.length - 2]
+    return province.toLowerCase() === ADDRESS_COUNTRY ? "" : province
+}
 
 // "Santa Ana" → "santa-ana" | "Escazú" → "escazu"
 export function cityToSlug(city) {

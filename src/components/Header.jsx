@@ -16,7 +16,7 @@ function Header() {
     const cities = useMemo(() => getCitiesFromProducts(products), [products]);
 
     const links = useMemo(() => [
-        { href: "/products", label: "Inicio" },
+        { href: "/", label: "Inicio" },
         { href: "/products", label: "Propiedades" },
         {
             href: "/ciudades",
@@ -100,8 +100,8 @@ function Header() {
     });
 
     return (
-        <header className="site-header pt-5 lg:w-full ">
-            <div className="site-header-inner lg:w-6xl ">
+        <header className="site-header pt-5">
+            <div className="site-header-inner Wrapper">
                 <Link className="site-brand" to="/" aria-label="Costa Rica Dreams, inicio">
                     <img className="site-brand-logo" src={logo} alt="Costa Rica Dreams Real Estate" />
                 </Link>
