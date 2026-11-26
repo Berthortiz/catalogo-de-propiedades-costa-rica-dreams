@@ -46,6 +46,10 @@ Si deseas correr este proyecto de forma local en tu máquina, sigue estos sencil
      npm start
      ```
 
+## Vista previa al compartir propiedades
+
+Al ejecutar `npm run build`, se generan páginas estáticas por propiedad con metadatos Open Graph para que WhatsApp muestre su imagen principal (`images[0]`). Si cambia el dominio público, actualiza `siteUrl` en `scripts/generate-property-pages.js`.
+
 ---
 
 ## 🤝 Contribuciones

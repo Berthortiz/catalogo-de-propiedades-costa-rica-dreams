@@ -119,7 +119,8 @@
                 "/images/properties/los-laureles/los-laureles-10.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 2,
@@ -252,7 +253,8 @@
                 "/images/properties/alto-de-las-palomas/WhatsApp Image 2026-10-15 at 10.05.56 AM.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 4,
@@ -364,131 +366,8 @@
                 "/images/properties/eco-residencial-villa-real/WhatsApp Image 2026-10-15 at 10.26.19 AM.jpeg"
             ],
             "url": null,
-            "available": null
-        },
-        {
-            "id": 5,
-            "title": "Residencia remodelada en Piedades",
-            "address": "Piedades, Santa Ana, San José, Costa Rica",
-            "price": {
-                "amount": 4600,
-                "currency": "USD",
-                "period": "month"
-            },
-            "pricePerSqFt": null,
-            "propertyType": "house",
-            "specifications": {
-                "bedrooms": 4,
-                "serviceBedrooms": 1,
-                "ensuiteBedrooms": 4,
-                "bathrooms": 4,
-                "halfBathrooms": 0,
-                "serviceBathrooms": null,
-                "garage": 6,
-                "coveredGarage": 4,
-                "sqFt": null,
-                "constructionArea": 432,
-                "landArea": 1014,
-                "floors": 2
-            },
-            "facts": [
-                {
-                    "icon": "bedrooms",
-                    "label": "Habitaciones privadas",
-                    "value": 4,
-                    "unit": ""
-                },
-                {
-                    "icon": "bedrooms",
-                    "label": "Habitación de servicio",
-                    "value": 1,
-                    "unit": ""
-                },
-                {
-                    "icon": "bathrooms",
-                    "label": "Baños privados",
-                    "value": 4,
-                    "unit": ""
-                },
-                {
-                    "icon": "parking",
-                    "label": "Espacios de parqueo",
-                    "value": 6,
-                    "unit": ""
-                },
-                {
-                    "icon": "parking",
-                    "label": "Espacios techados",
-                    "value": 4,
-                    "unit": ""
-                },
-                {
-                    "icon": "area",
-                    "label": "Construcción",
-                    "value": 432,
-                    "unit": "m²"
-                },
-                {
-                    "icon": "area",
-                    "label": "Terreno",
-                    "value": 1014,
-                    "unit": "m²"
-                },
-                {
-                    "icon": "levels",
-                    "label": "Plantas",
-                    "value": 2,
-                    "unit": ""
-                },
-                {
-                    "icon": "security",
-                    "label": "Seguridad",
-                    "value": "24/7",
-                    "unit": ""
-                }
-            ],
-            "description": {
-                "summary": "Residencia remodelada en un residencial privado de Piedades, con acabados de lujo, abundante luz natural y amplias zonas verdes.",
-                "sections": [
-                    {
-                        "title": "Área social y recreativa",
-                        "paragraphs": [
-                            "La cocina ofrece amplio almacenamiento y alacena independiente. La antesala y la sala principal tienen una distribución fluida.",
-                            "Las áreas exteriores integran terraza techada, jardín, piscina privada y rancho para actividades sociales."
-                        ]
-                    },
-                    {
-                        "title": "Área privada",
-                        "paragraphs": [
-                            "La planta alta reúne tres habitaciones amplias, cada una con walk-in closet y baño privado. La primera planta cuenta con una habitación con baño privado. También hay sala de televisión y oficina o cuarto multiuso."
-                        ]
-                    },
-                    {
-                        "title": "Servicios y seguridad",
-                        "paragraphs": [
-                            "La propiedad incluye habitación de servicio independiente, bodega, cámaras y control de acceso.",
-                            "La cuota de seguridad del residencial está incluida en el alquiler."
-                        ]
-                    }
-                ]
-            },
-            "agent": null,
-            "images": [
-                "/images/properties/piedades/Piedades1.jpeg",
-                "/images/properties/piedades/Piedades10.jpeg",
-                "/images/properties/piedades/Piedades11.jpeg",
-                "/images/properties/piedades/Piedades12.jpeg",
-                "/images/properties/piedades/Piedades2.jpeg",
-                "/images/properties/piedades/Piedades3.jpeg",
-                "/images/properties/piedades/Piedades4.jpeg",
-                "/images/properties/piedades/Piedades5.jpeg",
-                "/images/properties/piedades/Piedades6.jpeg",
-                "/images/properties/piedades/Piedades7.jpeg",
-                "/images/properties/piedades/Piedades8.jpeg",
-                "/images/properties/piedades/Piedades9.jpeg"
-            ],
-            "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 6,
@@ -593,7 +472,8 @@
                 "/images/properties/guachipelin/18.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 7,
@@ -704,7 +584,8 @@
                 "/images/properties/alto-de-las-paloor/14.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 8,
@@ -846,7 +727,133 @@
                 "/images/properties/bello-horizonte/9.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 5,
+            "title": "Residencia remodelada en Piedades",
+            "address": "Piedades, Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 4600,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "ensuiteBedrooms": 4,
+                "bathrooms": 4,
+                "halfBathrooms": 0,
+                "serviceBathrooms": null,
+                "garage": 6,
+                "coveredGarage": 4,
+                "sqFt": null,
+                "constructionArea": 432,
+                "landArea": 1014,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones privadas",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños privados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios de parqueo",
+                    "value": 6,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios techados",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 432,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 1014,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Plantas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Residencia remodelada en un residencial privado de Piedades, con acabados de lujo, abundante luz natural y amplias zonas verdes.",
+                "sections": [
+                    {
+                        "title": "Área social y recreativa",
+                        "paragraphs": [
+                            "La cocina ofrece amplio almacenamiento y alacena independiente. La antesala y la sala principal tienen una distribución fluida.",
+                            "Las áreas exteriores integran terraza techada, jardín, piscina privada y rancho para actividades sociales."
+                        ]
+                    },
+                    {
+                        "title": "Área privada",
+                        "paragraphs": [
+                            "La planta alta reúne tres habitaciones amplias, cada una con walk-in closet y baño privado. La primera planta cuenta con una habitación con baño privado. También hay sala de televisión y oficina o cuarto multiuso."
+                        ]
+                    },
+                    {
+                        "title": "Servicios y seguridad",
+                        "paragraphs": [
+                            "La propiedad incluye habitación de servicio independiente, bodega, cámaras y control de acceso.",
+                            "La cuota de seguridad del residencial está incluida en el alquiler."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/piedades/Piedades1.jpeg",
+                "/images/properties/piedades/Piedades10.jpeg",
+                "/images/properties/piedades/Piedades11.jpeg",
+                "/images/properties/piedades/Piedades12.jpeg",
+                "/images/properties/piedades/Piedades2.jpeg",
+                "/images/properties/piedades/Piedades3.jpeg",
+                "/images/properties/piedades/Piedades4.jpeg",
+                "/images/properties/piedades/Piedades5.jpeg",
+                "/images/properties/piedades/Piedades6.jpeg",
+                "/images/properties/piedades/Piedades7.jpeg",
+                "/images/properties/piedades/Piedades8.jpeg",
+                "/images/properties/piedades/Piedades9.jpeg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": true
         },
         {
             "id": 9,
@@ -1022,7 +1029,8 @@
                 "/images/properties/Pozos-de-Santa-Ana/photo_2026-11-24_13-43-16.jpg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 10,
@@ -1211,7 +1219,8 @@
                 "/images/properties/Casa-en-Condominio-en-Pozos-de-Santa-Ana/photo_2026-11-24_13-59-32.jpg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 11,
@@ -1383,7 +1392,8 @@
                 "/images/properties/salatv/photo_2026-11-24_14-02-58.jpg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 12,
@@ -1554,7 +1564,8 @@
                 "/images/properties/penjause/WhatsApp Image 2026-11-23 at 10.28.44 PM (2).jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 13,
@@ -1744,7 +1755,8 @@
                 "/images/properties/edificio-maron/ASFSDFVS.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 14,
@@ -1966,7 +1978,8 @@
                 "/images/properties/dep-alto/WhatsApp Image 2026-11-23 at 10.25.10 PMwtwwe.jpeg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 15,
@@ -2152,7 +2165,8 @@
                 "/images/properties/Casa de 3 habitaciones/photo_2026-11-24_21-55-30.jpg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         },
         {
             "id": 16,
@@ -2379,7 +2393,8 @@
                 "/images/properties/edificio-mega/photo_2026-11-24_21-58-54.jpg"
             ],
             "url": null,
-            "available": null
+            "available": null,
+            "oculta": false
         }
     ]
 }
