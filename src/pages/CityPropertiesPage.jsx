@@ -110,7 +110,7 @@ export default function CityPropertiesPage() {
                 </span>
             </header>
 
-            <PropertiesGrid products={filtedProducts} resetTo={cityFilters} />
+            <PropertiesGrid products={filtedProducts} resetTo={cityFilters} cityName={cityEntry.city} />
         </main>
     )
 }

@@ -6,7 +6,7 @@
  * primero propiedades que cumplen al menos un filtro activo y, si ninguna
  * coincide, algunas aleatorias.
  */
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { formatPrice } from '../utils/formatPrice';
 import { useFilters } from '../hooks/useFilter';
 import { DEFAULT_FILTERS } from '../contexts/FiltersContext';
@@ -14,7 +14,9 @@ import WhatsAppButton from './WhatsAppButton';
 import PropertyFacts from './PropertyFacts';
 import './Products.css';
 
-function PropertyCard({ product }) {
+function PropertyCard({ product, fromCityPage, cityName }) {
+  const propertyLinkState = { fromCityPage, cityName };
+
   return (
     <li className="property-card">
       {product.agent && <header className="property-agent">
@@ -24,7 +26,7 @@ function PropertyCard({ product }) {
         </div>
         <span className="agent-time">{product.agent.timeAgo}</span>
       </header>}
-      <Link to={`/products/${product.id}`} className="property-media">
+      <Link to={`/products/${product.id}`} state={propertyLinkState} className="property-media">
         {product.images?.[0]
           ? <img src={product.images[0]} alt={product.title} loading="lazy" />
           : <span className="property-media__placeholder">Fotografías próximamente</span>}
@@ -34,7 +36,7 @@ function PropertyCard({ product }) {
         <span className="property-price">{formatPrice(product.price)}</span>
       </Link>
       <div className="property-body">
-        <h2><Link to={`/products/${product.id}`}>{product.title}</Link></h2>
+        <h2><Link to={`/products/${product.id}`} state={propertyLinkState}>{product.title}</Link></h2>
         <p className="property-address">
           <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></svg>
           {product.address}
@@ -52,15 +54,17 @@ function PropertyCard({ product }) {
   )
 }
 
-export default function PropertiesGrid({ products, resetTo = DEFAULT_FILTERS }) {
+export default function PropertiesGrid({ products, resetTo = DEFAULT_FILTERS, cityName }) {
 
   const { setFilters, similarProducts } = useFilters()
+  const { pathname } = useLocation()
+  const fromCityPage = /^\/ciudades\/[^/]+\/?$/.test(pathname)
 
   return (
     <>
       <ul id="resultados" className="properties-grid">
         {products.map((product) => (
-          <PropertyCard key={product.id} product={product} />
+          <PropertyCard key={product.id} product={product} fromCityPage={fromCityPage} cityName={cityName} />
         ))}
       </ul>
 
@@ -81,7 +85,7 @@ export default function PropertiesGrid({ products, resetTo = DEFAULT_FILTERS }) 
               <p className="properties-similar__title">Pero te puede interesar esta otras</p>
               <ul className="properties-grid">
                 {similarProducts.map((product) => (
-                  <PropertyCard key={product.id} product={product} />
+                  <PropertyCard key={product.id} product={product} fromCityPage={fromCityPage} cityName={cityName} />
                 ))}
               </ul>
             </div>

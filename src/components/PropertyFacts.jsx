@@ -11,15 +11,28 @@ const formatValue = (value) => typeof value === "number"
     ? new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 }).format(value)
     : value;
 
-export default function PropertyFacts({ property, className = "", compact = false }) {
+export default function PropertyFacts({ property, className = "", compact = false, summaryOnly = false }) {
     const facts = (property.facts?.length ? property.facts : fallbackFacts(property.specifications))
         .filter((fact) => fact.value !== null && fact.value !== undefined && fact.value !== "");
+
+    const summaryIcons = ["bedrooms", "bathrooms", "parking", "area"];
+    const summaryFacts = facts
+        .filter((fact) => summaryIcons.includes(fact.icon))
+        .filter((fact) => {
+            const label = fact.label.toLowerCase();
+            return !label.includes("servicio")
+                && !label.includes("terreno")
+                && !label.includes("visita")
+                && !(fact.icon === "bedrooms" && (label.includes("estudio") || label.includes("externo")));
+        })
+        .filter((fact, index, list) => list.findIndex((item) => item.icon === fact.icon) === index)
+        .sort((first, second) => summaryIcons.indexOf(first.icon) - summaryIcons.indexOf(second.icon));
 
     const visibleFacts = compact
         ? facts.filter((fact) => !fact.label.toLowerCase().includes("servicio"))
             .filter((fact, index, list) => list.findIndex((item) => item.icon === fact.icon) === index)
             .slice(0, 4)
-        : facts;
+        : summaryOnly ? summaryFacts : facts;
 
     if (visibleFacts.length === 0) return null;
 

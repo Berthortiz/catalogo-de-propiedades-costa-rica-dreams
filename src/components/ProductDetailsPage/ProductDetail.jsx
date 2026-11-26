@@ -29,7 +29,7 @@ export default function ProductDetail() {
                     <p className="ProductDetail__price">{formatPrice(product.price)}</p>
                 </div>
             </div>
-            <PropertyFacts property={product} className="detail-specs" />
+            <PropertyFacts property={product} className="detail-specs" summaryOnly />
             {product.pricePerSqFt && <p className="price-per-sqft">{formatPrice({ amount: product.pricePerSqFt, currency: product.price.currency })} por sq ft</p>}
             {product.agent && <section className="agent-detail">
                 {product.agent.avatar && <img src={product.agent.avatar} alt="" />}
