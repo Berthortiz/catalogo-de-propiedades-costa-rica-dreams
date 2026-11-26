@@ -2395,6 +2395,168 @@
             "url": null,
             "available": null,
             "oculta": false
+        },
+        {
+            "id": 17,
+            "title": "Casa en condominio exclusivo en Santa Ana",
+            "address": "Santa Ana, San José, Costa Rica",
+            "price": {
+                "amount": 3200,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "ensuiteBedrooms": 1,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "garage": 2,
+                "coveredGarage": 2,
+                "visitorParking": true,
+                "sqFt": null,
+                "constructionArea": 244,
+                "landArea": 204,
+                "floors": null,
+                "terraces": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 244,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 204,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "terrace",
+                    "label": "Terraza techada",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Cancha de tenis",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Cancha de fútbol 5",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscinas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Ranchos con BBQ",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Parqueo de visitas",
+                    "value": "Disponible",
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa en condominio exclusivo en Santa Ana, con 244 m² de construcción sobre un terreno de 204 m². Cuenta con tres habitaciones, terraza techada con BBQ, jardín, aire acondicionado en toda la casa y cochera techada para dos vehículos.",
+                "sections": [
+                    {
+                        "title": "Distribución",
+                        "paragraphs": [
+                            "La habitación principal cuenta con dos walk-in closets y baño privado con doble lavamanos. Las dos habitaciones secundarias tienen clóset y comparten un baño completo.",
+                            "Incluye sala de TV y medio baño para visitas."
+                        ]
+                    },
+                    {
+                        "title": "Área social y cocina",
+                        "paragraphs": [
+                            "Amplia sala-comedor con cocina equipada con plantilla, extractor, lavaplatos y torre de horno.",
+                            "Cuenta con cuarto de pilas, terraza techada con área de BBQ y jardín."
+                        ]
+                    },
+                    {
+                        "title": "Confort y acabados",
+                        "paragraphs": [
+                            "Construcción completamente en concreto con acabados de primera calidad. Es una casa iluminada y ventilada, con cortinas eléctricas en las habitaciones y aire acondicionado en toda la vivienda."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Cancha de tenis, cancha de fútbol 5, parqueo de visitas, piscina con carril de nado, piscina para niños, tres ranchos con BBQ, zonas verdes, play para niños y seguridad 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en Santa Ana, San José."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/depto-ult/principal.jpeg",
+                "/images/properties/depto-ult/dsfsdfs.jpeg",
+                "/images/properties/depto-ult/sdfsdfgf.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.21 PM.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.21 PMdf.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.22 PMdddddd.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.22 PMghjghj.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.22 PMghjghjghj.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.22 PMytuytuyt.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.22 PMyuiyuiyu.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.23 PMññññ.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.23 PMoopopo.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.23 PMqqq.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.23 PMxxxx.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.23 PMzzxzxz.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.24 PMasdasdasd.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.24 PMasdasdasdasd.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.24 PMmnmn.jpeg",
+                "/images/properties/depto-ult/WhatsApp Image 2026-11-23 at 10.21.25 PMasdasdasdasdasd.jpeg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
         }
     ]
 }
