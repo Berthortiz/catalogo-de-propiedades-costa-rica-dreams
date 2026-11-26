@@ -100,13 +100,12 @@
     font-size: 2em;
 }
 
-.ProductDetail__price-label,
-.ProductDetail__rental-price span {
+.ProductDetail__sale-price span {
     color: #68717b;
     font-size: .85rem;
 }
 
-.ProductDetail__rental-price {
+.ProductDetail__sale-price {
     display: flex;
     flex-direction: column;
     gap: .25rem;
@@ -115,7 +114,7 @@
     background: color-mix(in srgb, var(--color-primary) 7%, #ffffff);
 }
 
-.ProductDetail__rental-price strong {
+.ProductDetail__sale-price strong {
     color: var(--color-primary-800);
     font-size: 1.15rem;
 }

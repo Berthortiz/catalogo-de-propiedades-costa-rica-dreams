@@ -34,7 +34,6 @@ function PropertyCard({ product, fromCityPage, cityName }) {
           {product.available ? 'Disponible' : 'No disponible'}
         </span>}
         <span className="property-price">
-          {product.rentalPrice && <span className="property-price__label">Venta · </span>}
           {formatPrice(product.price)}
         </span>
       </Link>

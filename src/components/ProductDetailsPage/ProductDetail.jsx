@@ -26,13 +26,12 @@ export default function ProductDetail() {
             <p className="ProductDetail__description" >{product.address}</p>
             <div className="ProductDetail__price-container">
                 <div className="ProductDetail__price-main">
-                    {product.rentalPrice && <span className="ProductDetail__price-label">Precio de venta</span>}
                     <p className="ProductDetail__price">{formatPrice(product.price)}</p>
                 </div>
-                {product.rentalPrice && (
-                    <div className="ProductDetail__rental-price">
-                        <span>También disponible para alquiler</span>
-                        <strong>{formatPrice(product.rentalPrice)}</strong>
+                {product.salePrice && (
+                    <div className="ProductDetail__sale-price">
+                        <span>También disponible para venta</span>
+                        <strong>{formatPrice(product.salePrice)}</strong>
                     </div>
                 )}
             </div>

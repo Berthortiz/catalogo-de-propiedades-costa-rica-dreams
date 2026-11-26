@@ -2563,13 +2563,13 @@
             "title": "Casa de lujo en Condominio Tierras del Café",
             "address": "Condominio Tierras del Café, Heredia, Heredia, Costa Rica",
             "price": {
-                "amount": 520000,
-                "currency": "USD"
-            },
-            "rentalPrice": {
                 "amount": 2800,
                 "currency": "USD",
                 "period": "month"
+            },
+            "salePrice": {
+                "amount": 520000,
+                "currency": "USD"
             },
             "pricePerSqFt": null,
             "propertyType": "house",
@@ -2612,9 +2612,9 @@
                         ]
                     },
                     {
-                        "title": "Área complementaria",
+                        "title": "Amenidades y parqueo",
                         "paragraphs": [
-                            "Cuenta con un área de lavandería amplia y cuatro espacios de parqueo."
+                            "La propiedad cuenta con cuatro espacios de parqueo y un área de lavandería amplia."
                         ]
                     },
                     {

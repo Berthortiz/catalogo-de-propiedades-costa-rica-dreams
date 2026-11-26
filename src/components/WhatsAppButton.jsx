@@ -5,8 +5,8 @@ export default function WhatsAppButton({ property, className }) {
     const propertyUrl = `${window.location.origin}/products/${property.id}`;
     const message = [
         `Hola, me interesa la propiedad ${property.title}.`,
-        property.rentalPrice
-            ? `Precio de venta: ${formatPrice(property.price)}.\nPrecio de alquiler: ${formatPrice(property.rentalPrice)}.`
+        property.salePrice
+            ? `Precio de alquiler: ${formatPrice(property.price)}.\nPrecio de venta: ${formatPrice(property.salePrice)}.`
             : `Precio: ${formatPrice(property.price)}.`,
         `Ubicación: ${property.address}.`,
         `Más información: ${propertyUrl}`
@@ -43,7 +43,7 @@ WhatsAppButton.propTypes = {
             currency: PropTypes.string.isRequired,
             period: PropTypes.string
         }).isRequired,
-        rentalPrice: PropTypes.shape({
+        salePrice: PropTypes.shape({
             amount: PropTypes.number.isRequired,
             currency: PropTypes.string.isRequired,
             period: PropTypes.string
