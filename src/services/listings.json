@@ -2904,7 +2904,7 @@
             "facts": [
                 {
                     "icon": "bedrooms",
-                    "label": "Dormitorios",
+                    "label": "Habitaciones",
                     "value": 3,
                     "unit": ""
                 },
@@ -2946,20 +2946,20 @@
                 }
             ],
             "description": {
-                "summary": "Casa esquinera en alquiler en el Condominio La Valencia, San Pablo de Heredia. Tiene 160 m² de construcción sobre un lote de 115 m², tres dormitorios, 2.5 baños, patio enzacatado y parqueo para dos vehículos. Alquiler: $1,450 al mes. Se admite una mascota pequeña.",
+                "summary": "Casa esquinera en alquiler en el Condominio La Valencia, San Pablo de Heredia. Tiene 160 m² de construcción sobre un lote de 115 m², tres habitaciones, 2.5 baños, patio enzacatado y parqueo para dos vehículos. Alquiler: $1,450 al mes. Se admite una mascota pequeña.",
                 "sections": [
                     {
                         "title": "Planta baja",
                         "paragraphs": [
                             "Área social con sala y comedor integrados, y cocina con sobre de granito.",
-                            "Cuenta con un dormitorio principal de 3.5 x 3.8 m, con baño privado y walk-in closet; además, incluye un baño completo adicional en esta planta.",
+                            "Cuenta con una habitación principal de 3.5 x 3.8 m, con baño privado y walk-in closet; además, incluye un baño completo adicional en esta planta.",
                             "También dispone de cuarto de lavandería, terraza, patio enzacatado y parqueo para dos vehículos."
                         ]
                     },
                     {
                         "title": "Planta alta",
                         "paragraphs": [
-                            "Tiene dos dormitorios secundarios de 3 x 2.4 m, ambos con clósets, y un baño completo."
+                            "Tiene dos habitaciones secundarias de 3 x 2.4 m, ambas con clósets, y un baño completo."
                         ]
                     },
                     {
