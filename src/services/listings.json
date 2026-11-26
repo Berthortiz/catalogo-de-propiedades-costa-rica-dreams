@@ -3014,7 +3014,7 @@
             "pricePerSqFt": null,
             "propertyType": "house",
             "specifications": {
-                "bedrooms": 4,
+                "bedrooms": 3,
                 "bathrooms": 2.5,
                 "garage": 4,
                 "coveredGarage": 2,
@@ -3025,7 +3025,7 @@
                 {
                     "icon": "bedrooms",
                     "label": "Habitaciones",
-                    "value": 4,
+                    "value": 3,
                     "unit": ""
                 },
                 {
@@ -3066,20 +3066,20 @@
                 }
             ],
             "description": {
-                "summary": "Casa de dos plantas en alquiler en el Condominio Francosta, Ulloa de Heredia. Cuenta con cuatro habitaciones, 2.5 baños, 270 m² de construcción, cuatro espacios de parqueo (dos techados) y amenidades de condominio. Se acepta una mascota pequeña. Alquiler: $2,500 al mes.",
+                "summary": "Casa de dos plantas en alquiler en el Condominio Francosta, Ulloa de Heredia. Cuenta con tres habitaciones, 2.5 baños, 270 m² de construcción, cuatro espacios de parqueo (dos techados) y amenidades de condominio. Se acepta una mascota pequeña. Alquiler: $2,500 al mes.",
                 "sections": [
                     {
                         "title": "Primer piso",
                         "paragraphs": [
                             "Cocina con muebles italianos, sobre de cuarzo y desayunador. Incluye horno, extractor, plantilla y horno microondas.",
                             "Dispone de sala principal, sala-comedor, medio baño de visitas, cuarto de lavandería, zonas verdes alrededor de la casa, patio trasero con tapia y una amplia terraza trasera.",
-                            "En esta planta también hay una habitación con baño privado y walk-in closet. Cuenta con parqueo para cuatro vehículos, dos bajo techo."
+                            "En esta planta también hay una de las tres habitaciones, con baño privado y walk-in closet. Cuenta con parqueo para cuatro vehículos, dos bajo techo."
                         ]
                     },
                     {
                         "title": "Segundo piso",
                         "paragraphs": [
-                            "Incluye sala de TV, habitación principal con walk-in closet, baño y piso laminado, además de habitaciones secundarias amplias con clóset compartido y baño compartido.",
+                            "Incluye sala de TV, habitación principal con walk-in closet, baño y piso laminado, además de una habitación secundaria amplia con clóset y baño compartidos.",
                             "La casa también cuenta con ático."
                         ]
                     },
