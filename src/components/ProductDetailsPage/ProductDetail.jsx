@@ -25,9 +25,16 @@ export default function ProductDetail() {
             <h1 className="ProductDetail__title">{product.title}</h1>
             <p className="ProductDetail__description" >{product.address}</p>
             <div className="ProductDetail__price-container">
-                <div>
+                <div className="ProductDetail__price-main">
+                    {product.rentalPrice && <span className="ProductDetail__price-label">Precio de venta</span>}
                     <p className="ProductDetail__price">{formatPrice(product.price)}</p>
                 </div>
+                {product.rentalPrice && (
+                    <div className="ProductDetail__rental-price">
+                        <span>También disponible para alquiler</span>
+                        <strong>{formatPrice(product.rentalPrice)}</strong>
+                    </div>
+                )}
             </div>
             <PropertyFacts property={product} className="detail-specs" summaryOnly />
             {product.pricePerSqFt && <p className="price-per-sqft">{formatPrice({ amount: product.pricePerSqFt, currency: product.price.currency })} por sq ft</p>}

@@ -100,11 +100,37 @@
     font-size: 2em;
 }
 
-.ProductDetail__price-container div {
+.ProductDetail__price-label,
+.ProductDetail__rental-price span {
+    color: #68717b;
+    font-size: .85rem;
+}
+
+.ProductDetail__rental-price {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: .75rem 1rem;
+    border-left: 3px solid var(--color-primary);
+    background: color-mix(in srgb, var(--color-primary) 7%, #ffffff);
+}
+
+.ProductDetail__rental-price strong {
+    color: var(--color-primary-800);
+    font-size: 1.15rem;
+}
+
+.ProductDetail__price-container {
     display: flex;
     align-items: center;
-    gap: 1em;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
 
+.ProductDetail__price-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
 }
 
 .ProductDetail__price-discount {

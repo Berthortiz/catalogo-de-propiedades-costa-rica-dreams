@@ -1,8 +1,10 @@
 /**
  * citySlug — utilidades de ciudades para las páginas /ciudades.
  *
- * Las ciudades se derivan del campo "address" del JSON de propiedades
- * (formato "Barrio, Cantón, Provincia, País"), igual que hace useFilter.js.
+ * Las ciudades se derivan del campo "address" del JSON de propiedades,
+ * salvo que una propiedad defina "city" para asignar su sección de catálogo.
+ * Acepta direcciones con barrio ("Barrio, Cantón, Provincia, País") y
+ * abreviadas sin barrio ("Cantón, Provincia, País").
  * Cada ciudad obtiene un slug amigable para URLs: sin acentos, en
  * minúsculas y con guiones en lugar de espacios ("Escazú" → "escazu",
  * "Santa Ana" → "santa-ana").
@@ -12,15 +14,23 @@
  * menú existen solos, sin tocar código.
  */
 
-// Posiciones dentro de "Barrio, Cantón, Provincia, País". La provincia se
-// toma como el penúltimo segmento para tolerar direcciones a las que les
-// falte el barrio y evitar que el país ("Costa Rica") llegue al filtro.
-const ADDRESS_CITY_INDEX = 1
+// La provincia se toma como penúltimo segmento para evitar que el país
+// ("Costa Rica") llegue al filtro.
 const ADDRESS_COUNTRY = "costa rica"
 
 // Cantón/ciudad de la dirección ("Escazú", "Santa Ana", ...)
-export const getCity = (product) =>
-    product.address?.split(",")[ADDRESS_CITY_INDEX]?.trim() ?? ""
+export const getCity = (product) => {
+    const catalogCity = product.city?.trim()
+    if (catalogCity) return catalogCity
+
+    const parts = product.address
+        ?.split(",")
+        .map((part) => part.trim())
+        .filter(Boolean) ?? []
+
+    // Sin barrio, la dirección empieza directamente con el cantón.
+    return parts.length >= 4 ? parts[1] : parts[0] ?? ""
+}
 
 // Provincia de la dirección ("San José", "Guanacaste", ...)
 export const getProvince = (product) => {

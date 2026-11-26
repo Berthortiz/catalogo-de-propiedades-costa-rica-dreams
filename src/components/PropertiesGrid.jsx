@@ -33,7 +33,10 @@ function PropertyCard({ product, fromCityPage, cityName }) {
         {product.available != null && <span className={`property-status ${product.available ? 'property-status--available' : 'property-status--unavailable'}`}>
           {product.available ? 'Disponible' : 'No disponible'}
         </span>}
-        <span className="property-price">{formatPrice(product.price)}</span>
+        <span className="property-price">
+          {product.rentalPrice && <span className="property-price__label">Venta · </span>}
+          {formatPrice(product.price)}
+        </span>
       </Link>
       <div className="property-body">
         <h2><Link to={`/products/${product.id}`} state={propertyLinkState}>{product.title}</Link></h2>

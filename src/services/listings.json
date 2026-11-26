@@ -2557,6 +2557,570 @@
             "url": null,
             "available": null,
             "oculta": false
+        },
+        {
+            "id": 18,
+            "title": "Casa de lujo en Condominio Tierras del Café",
+            "address": "Condominio Tierras del Café, Heredia, Heredia, Costa Rica",
+            "price": {
+                "amount": 520000,
+                "currency": "USD"
+            },
+            "rentalPrice": {
+                "amount": 2800,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "ensuiteBedrooms": 1,
+                "bathrooms": null,
+                "garage": 4,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios de parqueo",
+                    "value": 4,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de lujo en el Condominio Tierras del Café, Heredia. Cuenta con cuatro habitaciones distribuidas en dos plantas, amplias áreas sociales, jardín privado y cuatro espacios de parqueo. Disponible para venta por $520,000 o alquiler por $2,800 al mes.",
+                "sections": [
+                    {
+                        "title": "Habitaciones y distribución",
+                        "paragraphs": [
+                            "Tres habitaciones se encuentran en la segunda planta. La habitación principal cuenta con un amplio walk-in closet y baño privado.",
+                            "En la primera planta hay una habitación completa, ideal para visitas o familiares."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales",
+                        "paragraphs": [
+                            "Dispone de amplia sala principal, comedor y cocina moderna totalmente equipada.",
+                            "En la segunda planta cuenta con sala de TV. También incluye balcón, mini terraza y jardín privado."
+                        ]
+                    },
+                    {
+                        "title": "Área complementaria",
+                        "paragraphs": [
+                            "Cuenta con un área de lavandería amplia y cuatro espacios de parqueo."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en el Condominio Tierras del Café, en Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casa-lujo/photo_1_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_2_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_3_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_4_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_5_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_6_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_7_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_8_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_9_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_10_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_11_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_12_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_13_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_14_2026-11-26_11-45-46.jpg",
+                "/images/properties/casa-lujo/photo_15_2026-11-26_11-45-46.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 19,
+            "title": "Casa independiente con amplias zonas verdes en San Isidro",
+            "address": "San Isidro de Heredia, San Isidro, Heredia, Costa Rica",
+            "city": "Heredia",
+            "price": {
+                "amount": 2000,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "serviceBedrooms": 1,
+                "bathrooms": 2.5,
+                "serviceBathrooms": 1,
+                "garage": 2,
+                "coveredGarage": 2,
+                "constructionArea": 430,
+                "landArea": 1000,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitación de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2.5",
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baño de servicio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 430,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 1000,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Plantas",
+                    "value": 2,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa independiente en San Isidro de Heredia, con 430 m² de construcción en un lote de 1.000 m². Tiene cuatro habitaciones, oficina, habitación de servicio con baño, dos terrazas y amplias zonas verdes. Alquiler: $2,000 al mes.",
+                "sections": [
+                    {
+                        "title": "Distribución y habitaciones",
+                        "paragraphs": [
+                            "La casa cuenta con dos plantas, cuatro habitaciones principales y una oficina. La habitación principal tiene walk-in closet y baño privado con ducha.",
+                            "Las tres habitaciones secundarias cuentan con clósets de madera. También dispone de una habitación de servicio independiente con baño."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales y cocina",
+                        "paragraphs": [
+                            "La amplia sala cuenta con lobby, artesonado de madera y chimenea.",
+                            "La cocina tiene muebles de melamina, sobre de granito, alacena y área de comedor."
+                        ]
+                    },
+                    {
+                        "title": "Exteriores y servicios",
+                        "paragraphs": [
+                            "Dispone de una terraza amplia en alto, otra terraza en la planta baja y amplias zonas verdes.",
+                            "Incluye cuarto de lavado, bodega amplia en el garaje, dos espacios techados y espacio adicional de parqueo. La propiedad cuenta con portón eléctrico y malla electrosoldada en sus límites."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en San Isidro de Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casa-lujo2/photo_1_2026-11-26_11-48-37.jpg",
+                "/images/properties/casa-lujo2/photo_2_2026-11-26_11-48-37.jpg",
+                "/images/properties/casa-lujo2/photo_3_2026-11-26_11-48-37.jpg",
+                "/images/properties/casa-lujo2/photo_4_2026-11-26_11-48-37.jpg",
+                "/images/properties/casa-lujo2/photo_5_2026-11-26_11-48-37.jpg",
+                "/images/properties/casa-lujo2/photo_6_2026-11-26_11-48-38.jpg",
+                "/images/properties/casa-lujo2/photo_7_2026-11-26_11-48-38.jpg",
+                "/images/properties/casa-lujo2/photo_8_2026-11-26_11-48-38.jpg",
+                "/images/properties/casa-lujo2/photo_9_2026-11-26_11-48-38.jpg",
+                "/images/properties/casa-lujo2/photo_10_2026-11-26_11-48-38.jpg",
+                "/images/properties/casa-lujo2/photo_11_2026-11-26_11-48-38.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 20,
+            "title": "Casa en Condominio Vía Heredia",
+            "address": "Condominio Vía Heredia, Heredia, Heredia, Costa Rica",
+            "price": {
+                "amount": 1500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "garage": 2,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños completos",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos en tándem",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "levels",
+                    "label": "Plantas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Mascotas",
+                    "value": "Se admite una mascota pequeña",
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de dos plantas en el Condominio Vía Heredia. Cuenta con tres habitaciones, tres baños completos, patio verde privado y parqueo para dos vehículos en tándem. El condominio ofrece amenidades tipo club y seguridad 24/7. Se admite una mascota pequeña. Alquiler: $1,500 al mes.",
+                "sections": [
+                    {
+                        "title": "Planta baja",
+                        "paragraphs": [
+                            "Área social con sala y comedor integrados, y cocina con muebles de almacenamiento.",
+                            "Incluye una habitación con walk-in closet y baño privado, un baño completo adicional, área de pilas independiente y patio verde privado.",
+                            "El estacionamiento permite dos vehículos bajo la modalidad en tándem."
+                        ]
+                    },
+                    {
+                        "title": "Planta alta",
+                        "paragraphs": [
+                            "Cuenta con dos habitaciones amplias con clósets integrados y un baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades y seguridad",
+                        "paragraphs": [
+                            "El residencial ofrece gimnasio equipado, piscina para adultos y niños, edificio de coworking con internet de alta velocidad, cancha de fútbol con césped sintético, parque canino cercado y área de juegos infantiles.",
+                            "El proyecto cuenta con cobertura de fibra óptica, acceso controlado, seguridad física y monitoreo 24/7."
+                        ]
+                    },
+                    {
+                        "title": "Política de mascotas",
+                        "paragraphs": [
+                            "Se admite una mascota de raza pequeña."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en el Condominio Vía Heredia, en Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casa-lujo3/photo_1_2026-11-26_11-52-10.jpg",
+                "/images/properties/casa-lujo3/photo_2_2026-11-26_11-52-10.jpg",
+                "/images/properties/casa-lujo3/photo_3_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_4_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_5_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_6_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_7_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_8_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_9_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_10_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_11_2026-11-26_11-52-11.jpg",
+                "/images/properties/casa-lujo3/photo_12_2026-11-26_11-52-11.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 21,
+            "title": "Casa esquinera en Condominio La Valencia",
+            "address": "Condominio La Valencia, San Pablo, Heredia, Costa Rica",
+            "city": "Heredia",
+            "price": {
+                "amount": 1450,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 2.5,
+                "garage": 2,
+                "constructionArea": 160,
+                "landArea": 115
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Dormitorios",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2.5",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 160,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Lote",
+                    "value": 115,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Mascotas",
+                    "value": "Pet friendly",
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa esquinera en alquiler en el Condominio La Valencia, San Pablo de Heredia. Tiene 160 m² de construcción sobre un lote de 115 m², tres dormitorios, 2.5 baños, patio enzacatado y parqueo para dos vehículos. Alquiler: $1,450 al mes. Se admite una mascota pequeña.",
+                "sections": [
+                    {
+                        "title": "Planta baja",
+                        "paragraphs": [
+                            "Área social con sala y comedor integrados, y cocina con sobre de granito.",
+                            "Cuenta con un dormitorio principal de 3.5 x 3.8 m, con baño privado y walk-in closet; además, incluye un baño completo adicional en esta planta.",
+                            "También dispone de cuarto de lavandería, terraza, patio enzacatado y parqueo para dos vehículos."
+                        ]
+                    },
+                    {
+                        "title": "Planta alta",
+                        "paragraphs": [
+                            "Tiene dos dormitorios secundarios de 3 x 2.4 m, ambos con clósets, y un baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades y mascotas",
+                        "paragraphs": [
+                            "El condominio ofrece piscina, rancho BBQ, área de juegos infantiles, cancha de fútbol 5, parque para mascotas, yoga deck y huerta orgánica.",
+                            "Cuenta con seguridad 24/7 y se admite una mascota de raza pequeña."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en el Condominio La Valencia, en San Pablo de Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casa-lujo4/photo_1_2026-11-26_11-53-04.jpg",
+                "/images/properties/casa-lujo4/photo_2_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_3_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_4_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_5_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_6_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_7_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_8_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_9_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_10_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_11_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_12_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_13_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_14_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_15_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_16_2026-11-26_11-53-05.jpg",
+                "/images/properties/casa-lujo4/photo_17_2026-11-26_11-53-05.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 22,
+            "title": "Casa en alquiler en Condominio Francosta",
+            "address": "Condominio Francosta, Ulloa, Heredia, Costa Rica",
+            "city": "Heredia",
+            "price": {
+                "amount": 2500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 4,
+                "bathrooms": 2.5,
+                "garage": 4,
+                "coveredGarage": 2,
+                "constructionArea": 270,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2.5",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Espacios de parqueo",
+                    "value": "4 (2 techados)",
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 270,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Plantas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Mascotas",
+                    "value": "Se admite una mascota pequeña",
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de dos plantas en alquiler en el Condominio Francosta, Ulloa de Heredia. Cuenta con cuatro habitaciones, 2.5 baños, 270 m² de construcción, cuatro espacios de parqueo (dos techados) y amenidades de condominio. Se acepta una mascota pequeña. Alquiler: $2,500 al mes.",
+                "sections": [
+                    {
+                        "title": "Primer piso",
+                        "paragraphs": [
+                            "Cocina con muebles italianos, sobre de cuarzo y desayunador. Incluye horno, extractor, plantilla y horno microondas.",
+                            "Dispone de sala principal, sala-comedor, medio baño de visitas, cuarto de lavandería, zonas verdes alrededor de la casa, patio trasero con tapia y una amplia terraza trasera.",
+                            "En esta planta también hay una habitación con baño privado y walk-in closet. Cuenta con parqueo para cuatro vehículos, dos bajo techo."
+                        ]
+                    },
+                    {
+                        "title": "Segundo piso",
+                        "paragraphs": [
+                            "Incluye sala de TV, habitación principal con walk-in closet, baño y piso laminado, además de habitaciones secundarias amplias con clóset compartido y baño compartido.",
+                            "La casa también cuenta con ático."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades y mascotas",
+                        "paragraphs": [
+                            "El condominio ofrece seguridad 24/7, rancho BBQ, casa club, parques infantiles, cancha de tenis, cancha de básquetbol, cancha de fútbol 5 y gimnasio.",
+                            "Se acepta una mascota pequeña."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Ubicada en el Condominio Francosta, en Ulloa de Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casa-lujo5/photo_1_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_2_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_3_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_4_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_5_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_6_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_7_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_8_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_9_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_10_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_11_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_12_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_13_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_14_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_15_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_16_2026-11-26_11-56-59.jpg",
+                "/images/properties/casa-lujo5/photo_17_2026-11-26_11-56-59.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
         }
     ]
 }
