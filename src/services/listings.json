@@ -3121,6 +3121,804 @@
             "url": null,
             "available": null,
             "oculta": false
+        },
+        {
+            "id": 23,
+            "title": "Casa en condominio en San Pablo de Heredia",
+            "address": "San Pablo, Heredia, Costa Rica",
+            "city": "Heredia",
+            "price": {
+                "amount": 1800,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "garage": 1,
+                "coveredGarage": 1,
+                "visitorParking": true,
+                "constructionArea": null,
+                "landArea": 50,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos",
+                    "value": 1,
+                    "unit": "techado"
+                },
+                {
+                    "icon": "area",
+                    "label": "Patio trasero y lateral",
+                    "value": 50,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Piscina",
+                    "value": "Adultos y niños",
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Gimnasio",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "security",
+                    "label": "Seguridad",
+                    "value": "24/7",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Hermosa casa en exclusivo condominio de San Pablo de Heredia, con tres habitaciones, 2.5 baños, excelente distribución, iluminación natural y amplios espacios para disfrutar en familia.",
+                "sections": [
+                    {
+                        "title": "Espacios interiores",
+                        "paragraphs": [
+                            "La casa cuenta con sala, comedor y cocina. Dispone de 3 habitaciones, 2 baños completos y medio baño para visitas."
+                        ]
+                    },
+                    {
+                        "title": "Patio y vistas",
+                        "paragraphs": [
+                            "El amplio patio trasero y lateral tiene aproximadamente 50 m² y ofrece un espacio ideal para disfrutar al aire libre, compartir en familia, tener mascotas o acondicionar una terraza.",
+                            "La propiedad disfruta de espectaculares vistas panorámicas, excelente iluminación y ventilación natural."
+                        ]
+                    },
+                    {
+                        "title": "Amenidades del condominio",
+                        "paragraphs": [
+                            "Los residentes cuentan con piscina recreativa para adultos y niños, gimnasio equipado, casa club, salón para eventos, ranchos BBQ, parque para mascotas, cancha de fútbol 5, parque infantil, salón de juegos, business center y coworking.",
+                            "También ofrece sala de reuniones, senderos para caminar, amplias áreas verdes y parqueo para visitas."
+                        ]
+                    },
+                    {
+                        "title": "Seguridad y ubicación",
+                        "paragraphs": [
+                            "El condominio cuenta con seguridad 24/7, acceso controlado y tapias perimetrales.",
+                            "Ubicada en San Pablo de Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casacondominio/photo_1_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_2_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_3_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_4_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_5_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_6_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_7_2026-11-27_11-10-15.jpg",
+                "/images/properties/casacondominio/photo_8_2026-11-27_11-10-15.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 24,
+            "title": "Casa independiente de 3 habitaciones en Lagunilla",
+            "address": "Lagunilla, Heredia, Costa Rica",
+            "city": "Heredia",
+            "listingType": "sale",
+            "price": {
+                "amount": 680000,
+                "currency": "USD",
+                "period": "sale"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 1,
+                "halfBathrooms": 1,
+                "garage": 2,
+                "coveredGarage": 2,
+                "constructionArea": 117,
+                "landArea": null,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "1 completo + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos techados",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 117,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 2,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa independiente de dos niveles en Lagunilla de Heredia. Tiene 117 m² de construcción, 3 habitaciones, cochera cerrada para 2 vehículos y jardín trasero con zacate sintético. Precio de venta: $680,000, con posibilidad de negociación cercana a $600,000.",
+                "sections": [
+                    {
+                        "title": "Primer nivel",
+                        "paragraphs": [
+                            "Cuenta con cochera techada y cerrada para dos vehículos, con toma de 220V para carro eléctrico.",
+                            "Incluye bodega en el área de cochera, sala-comedor iluminada, medio baño de visitas con espejo con luz LED, cocina con sobres de granito y cuarto de pilas con prevista para lavadora y secadora."
+                        ]
+                    },
+                    {
+                        "title": "Patio y servicios",
+                        "paragraphs": [
+                            "Dispone de jardín trasero con zacate sintético y tanque de agua caliente para toda la casa."
+                        ]
+                    },
+                    {
+                        "title": "Planta alta",
+                        "paragraphs": [
+                            "La habitación principal cuenta con closet y ventilador de techo.",
+                            "Las dos habitaciones secundarias comparten un walk-in closet y tienen un baño completo para las tres habitaciones."
+                        ]
+                    },
+                    {
+                        "title": "Zona",
+                        "paragraphs": [
+                            "La zona cuenta con dos parques, gimnasio al aire libre, supermercados y restaurantes.",
+                            "Ubicada en Lagunilla, Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_1_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_2_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_3_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_4_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_5_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_6_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_7_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_8_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_9_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_10_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_11_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_12_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_13_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_14_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_15_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_16_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_17_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_18_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_19_2026-11-27_11-12-39.jpg",
+                "/images/properties/Casa independiente de 3 Habitaciones en Lagunilla/photo_20_2026-11-27_11-12-39.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 25,
+            "title": "Casa en alquiler en Santa Bárbara de Heredia",
+            "address": "Santa Bárbara, Heredia, Costa Rica",
+            "city": "Heredia",
+            "listingType": "rent",
+            "price": {
+                "amount": 1850,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "garage": 4,
+                "coveredGarage": null,
+                "constructionArea": 350,
+                "landArea": 700,
+                "floors": null
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Parqueos",
+                    "value": 4,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 350,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Lote",
+                    "value": 700,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Mantenimiento mensual",
+                    "value": "¢95,000",
+                    "unit": "incluido"
+                },
+                {
+                    "icon": "security",
+                    "label": "Vigilancia",
+                    "value": "Nocturna y fines de semana",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Hermosa casa en alquiler en Santa Bárbara de Heredia. Cuenta con 3 habitaciones, 2.5 baños, 4 parqueos, lote de 700 m² y 350 m² de construcción. El alquiler es de $1,850 mensuales e incluye la cuota de mantenimiento de ¢95,000.",
+                "sections": [
+                    {
+                        "title": "Áreas interiores",
+                        "paragraphs": [
+                            "La casa dispone de sala-comedor, cocina y una habitación principal con baño privado.",
+                            "Las otras dos habitaciones comparten el baño completo y el inmueble ofrece dos baños completos y medio baño en total."
+                        ]
+                    },
+                    {
+                        "title": "Terrazas y exteriores",
+                        "paragraphs": [
+                            "Tiene una terraza integrada a la sala y una amplia terraza adicional con vistas al valle central.",
+                            "El lote cuenta con 700 m² y la construcción tiene 350 m²."
+                        ]
+                    },
+                    {
+                        "title": "Parqueo y cuota",
+                        "paragraphs": [
+                            "Incluye 4 espacios de parqueo.",
+                            "La cuota de mantenimiento es de ¢95,000 mensuales y está incluida en el alquiler de $1,850."
+                        ]
+                    },
+                    {
+                        "title": "Servicios del condominio",
+                        "paragraphs": [
+                            "El condominio cuenta con pozo de agua propio, planta de generación de electricidad y cableado subterráneo.",
+                            "Dispone de vigilancia por las noches y los fines de semana.",
+                            "Se permite una mascota."
+                        ]
+                    },
+                    {
+                        "title": "Mobiliario incluido",
+                        "paragraphs": [
+                            "El alquiler incluye juego de sala, televisión de 85 pulgadas, cama matrimonial, torre de lavado y refrigeradora."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_1_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_2_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_3_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_4_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_5_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_6_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_7_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_8_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_9_2026-11-27_11-14-06.jpg",
+                "/images/properties/Hermosa casa, ubicada en Santa Barbara de Heredia/photo_10_2026-11-27_11-14-06.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 26,
+            "title": "Casa de una planta en San Isidro de Heredia",
+            "address": "San Isidro, Heredia, Costa Rica",
+            "city": "Heredia",
+            "listingType": "rent",
+            "price": {
+                "amount": 1850,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "halfBathrooms": 0,
+                "garage": 3,
+                "coveredGarage": 3,
+                "constructionArea": 219,
+                "landArea": 824,
+                "floors": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Garajes bajo techo",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 219,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 824,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 1,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Hermosa casa de una planta ubicada en San Isidro de Heredia. Cuenta con 219 m² de construcción sobre un terreno de 824 m², ideal para niños y adultos mayores.",
+                "sections": [
+                    {
+                        "title": "Áreas interiores",
+                        "paragraphs": [
+                            "La casa ofrece tres habitaciones espaciosas, dos con baño privado, y un baño adicional completo.",
+                            "La sala, el comedor y la cocina están integrados, creando un ambiente amplio y funcional."
+                        ]
+                    },
+                    {
+                        "title": "Exteriores",
+                        "paragraphs": [
+                            "Incluye una terraza trasera, un deck o balcón exterior y una zona verde de buen tamaño.",
+                            "El garaje tiene capacidad para tres vehículos bajo techo, con espacio adicional exterior."
+                        ]
+                    },
+                    {
+                        "title": "Servicios",
+                        "paragraphs": [
+                            "Cuenta con cuarto de pilas."
+                        ]
+                    },
+                    {
+                        "title": "Ubicación",
+                        "paragraphs": [
+                            "Está ubicada en San Isidro de Heredia."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/properties/casaretiro/photo_1_2026-11-27_11-16-00.jpg",
+                "/images/properties/casaretiro/photo_2_2026-11-27_11-16-00.jpg",
+                "/images/properties/casaretiro/photo_3_2026-11-27_11-16-00.jpg",
+                "/images/properties/casaretiro/photo_4_2026-11-27_11-16-00.jpg",
+                "/images/properties/casaretiro/photo_5_2026-11-27_11-16-00.jpg",
+                "/images/properties/casaretiro/photo_6_2026-11-27_11-16-00.jpg",
+                "/images/properties/casaretiro/photo_7_2026-11-27_11-16-00.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 27,
+            "title": "Casa en alquiler en Heredia",
+            "address": "Heredia, Costa Rica",
+            "city": "Heredia",
+            "listingType": "rent",
+            "price": {
+                "amount": 1500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 5,
+                "bathrooms": 2,
+                "halfBathrooms": 1,
+                "garage": 1,
+                "coveredGarage": 1,
+                "constructionArea": null,
+                "landArea": null,
+                "floors": 3
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 5,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "2 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Garaje",
+                    "value": 1,
+                    "unit": "techado"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Mascotas",
+                    "value": "Una mascota pequeña",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa en alquiler de tres niveles en Heredia, distribuida en cinco habitaciones, dos baños completos, medio baño de visitas y garaje para un vehículo.",
+                "sections": [
+                    {
+                        "title": "Primer nivel",
+                        "paragraphs": [
+                            "Dispone de garaje con portón eléctrico y espacio para un vehículo."
+                        ]
+                    },
+                    {
+                        "title": "Segundo nivel",
+                        "paragraphs": [
+                            "Cuenta con amplia sala de estar, cocina italiana de generosas dimensiones y comedor.",
+                            "Incluye terraza frontal y terraza posterior ideal para BBQ y reuniones familiares.",
+                            "En este nivel hay una habitación con baño completo y medio baño de visitas."
+                        ]
+                    },
+                    {
+                        "title": "Tercer nivel",
+                        "paragraphs": [
+                            "Ofrece cuatro habitaciones adicionales, dos de ellas con balcón.",
+                            "Completa esta planta un baño completo."
+                        ]
+                    },
+                    {
+                        "title": "Mascotas",
+                        "paragraphs": [
+                            "Se permite una mascota pequeña."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/Distribución de la propiedad/photo_1_2026-11-27_14-19-40.jpg",
+                "/images/Distribución de la propiedad/photo_2_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_3_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_4_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_5_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_6_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_7_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_8_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_9_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_10_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_11_2026-11-27_14-19-41.jpg",
+                "/images/Distribución de la propiedad/photo_12_2026-11-27_14-19-41.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 28,
+            "title": "Casa elegante en San Rafael de Heredia",
+            "address": "Urbanización La Bermúdez, San Rafael, Heredia, Costa Rica",
+            "city": "Heredia",
+            "listingType": "rent",
+            "price": {
+                "amount": 1700,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "serviceBedrooms": null,
+                "bathrooms": 3,
+                "halfBathrooms": 1,
+                "serviceBathrooms": null,
+                "garage": 2,
+                "coveredGarage": 2,
+                "constructionArea": 280,
+                "landArea": 256,
+                "gardenArea": 60,
+                "floors": 2
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "office",
+                    "label": "Oficina independiente",
+                    "value": 1,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": "3 completos + 1 medio",
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Cochera cerrada",
+                    "value": 2,
+                    "unit": "vehículos"
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 280,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 256,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Jardín",
+                    "value": 60,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Plantas",
+                    "value": 2,
+                    "unit": ""
+                },
+                {
+                    "icon": "amenity",
+                    "label": "Mascotas",
+                    "value": "Acepta mascotas",
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Casa de dos plantas en la Urbanización La Bermúdez, San Rafael de Heredia. Cuenta con 280 m² de construcción, terreno de 256 m², jardín frontal de 60 m², tres habitaciones, oficina independiente y cochera cerrada para dos vehículos.",
+                "sections": [
+                    {
+                        "title": "Distribución",
+                        "paragraphs": [
+                            "Las tres habitaciones cuentan con closets de melamina y se encuentra una oficina independiente ideal para teletrabajo.",
+                            "La segunda planta dispone de tres baños completos, y el primer nivel cuenta con medio baño de visitas.",
+                            "Tiene conexión para torre de lavado en planta alta."
+                        ]
+                    },
+                    {
+                        "title": "Áreas sociales y exteriores",
+                        "paragraphs": [
+                            "La sala y el comedor son independientes y tienen acceso directo a la terraza.",
+                            "La cocina funcional cuenta con muebles organizadores.",
+                            "La propiedad dispone de jardín frontal, patio posterior y terraza techada."
+                        ]
+                    },
+                    {
+                        "title": "Parqueo y ubicación",
+                        "paragraphs": [
+                            "Incluye cochera cerrada para dos vehículos con portón eléctrico.",
+                            "Está a solo 900 metros del centro de San Rafael y a minutos de Heredia centro, universidades, supermercados y restaurantes."
+                        ]
+                    },
+                    {
+                        "title": "Mascotas",
+                        "paragraphs": [
+                            "La propiedad es pet friendly."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/casa-elegante/photo_1_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_2_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_3_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_4_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_5_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_6_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_7_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_8_2026-11-27_14-33-43.jpg",
+                "/images/casa-elegante/photo_9_2026-11-27_14-33-43.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
+        },
+        {
+            "id": 29,
+            "title": "Casa con terraza de madera en San Isidro de Heredia",
+            "address": "San Isidro, Heredia, Costa Rica",
+            "city": "Heredia",
+            "listingType": "rent",
+            "price": {
+                "amount": 1500,
+                "currency": "USD",
+                "period": "month"
+            },
+            "pricePerSqFt": null,
+            "propertyType": "house",
+            "specifications": {
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "halfBathrooms": 0,
+                "garage": 3,
+                "coveredGarage": 3,
+                "constructionArea": 219,
+                "landArea": 824,
+                "floors": 1
+            },
+            "facts": [
+                {
+                    "icon": "bedrooms",
+                    "label": "Habitaciones",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "bathrooms",
+                    "label": "Baños",
+                    "value": 3,
+                    "unit": ""
+                },
+                {
+                    "icon": "parking",
+                    "label": "Garaje bajo techo",
+                    "value": 3,
+                    "unit": "vehículos"
+                },
+                {
+                    "icon": "area",
+                    "label": "Construcción",
+                    "value": 219,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "area",
+                    "label": "Terreno",
+                    "value": 824,
+                    "unit": "m²"
+                },
+                {
+                    "icon": "levels",
+                    "label": "Niveles",
+                    "value": 1,
+                    "unit": ""
+                }
+            ],
+            "description": {
+                "summary": "Hermosa casa de una planta ubicada en San Isidro de Heredia. Cuenta con tres habitaciones espaciosas, tres baños, garaje para tres vehículos y un terreno de 824 m².",
+                "sections": [
+                    {
+                        "title": "Distribución interior",
+                        "paragraphs": [
+                            "Tiene tres habitaciones espaciosas; dos cuentan con baño privado y una tercera dispone de baño completo adicional.",
+                            "La sala, el comedor y la cocina están integrados.",
+                            "Incluye cuarto de pilas."
+                        ]
+                    },
+                    {
+                        "title": "Exteriores",
+                        "paragraphs": [
+                            "Cuenta con una terraza trasera y un deck o balcón exterior.",
+                            "La zona verde es amplia y complementa una construcción de 219 m² sobre un terreno de 824 m².",
+                            "Es una propiedad adecuada para niños y adultos mayores."
+                        ]
+                    },
+                    {
+                        "title": "Parqueo",
+                        "paragraphs": [
+                            "El garaje cubre tres vehículos bajo techo y también dispone de espacio exterior."
+                        ]
+                    }
+                ]
+            },
+            "agent": null,
+            "images": [
+                "/images/casa-terraza-madera/photo_1_2026-11-27_16-03-20.jpg",
+                "/images/casa-terraza-madera/photo_2_2026-11-27_16-03-21.jpg",
+                "/images/casa-terraza-madera/photo_3_2026-11-27_16-03-21.jpg",
+                "/images/casa-terraza-madera/photo_4_2026-11-27_16-03-21.jpg",
+                "/images/casa-terraza-madera/photo_5_2026-11-27_16-03-21.jpg",
+                "/images/casa-terraza-madera/photo_6_2026-11-27_16-03-21.jpg",
+                "/images/casa-terraza-madera/photo_7_2026-11-27_16-03-21.jpg"
+            ],
+            "url": null,
+            "available": null,
+            "oculta": false
         }
     ]
 }
