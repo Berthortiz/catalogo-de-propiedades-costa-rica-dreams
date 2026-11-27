@@ -11,6 +11,12 @@ const PRICE_STEP = 500
 
 // Cuántas propiedades aleatorias se sugieren cuando ningún filtro coincide
 const SIMILAR_FALLBACK_COUNT = 3
+const FILTER_PROVINCES = ["San José"]
+
+const getFilterProvince = (product) => {
+    const province = getProvince(product)
+    return province === "Heredia" ? "San José" : province
+}
 
 const currencyFormat = new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -86,7 +92,7 @@ const filterCriteria = {
     propertyType: (product, chosen) => product.propertyType === chosen,
 
     // La provincia de la dirección debe coincidir con la elegida
-    province: (product, chosen) => getProvince(product) === chosen,
+    province: (product, chosen) => getFilterProvince(product) === chosen,
 
     // La ciudad (cantón) de la dirección debe coincidir con la elegida
     city: (product, chosen) => getCity(product) === chosen,
@@ -136,14 +142,11 @@ function useFilterOptions(products, filters) {
         [products]
     )
 
-    const provinces = useMemo(
-        () => [...new Set(products.map(getProvince).filter(Boolean))].sort(),
-        [products]
-    )
+    const provinces = FILTER_PROVINCES
 
     const cities = useMemo(
         () => [...new Set(products
-            .filter((product) => filters.province === "all" || getProvince(product) === filters.province)
+            .filter((product) => filters.province === "all" || getFilterProvince(product) === filters.province)
             .map(getCity)
             .filter(Boolean))]
             .sort(),
