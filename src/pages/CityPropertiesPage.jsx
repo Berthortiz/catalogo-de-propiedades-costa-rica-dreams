@@ -10,7 +10,7 @@
  * el cliente manda /ciudades/escazu y el visitante ve solo las
  * propiedades de esa ciudad.
  *
- * Pre-selecciona provincia + ciudad en el contexto de filtros y las limpia
+ * Pre-selecciona la ciudad en el contexto de filtros y la limpia
  * al salir, para no contaminar /products ni la home. Esta página no muestra
  * controles de filtrado adicionales.
  */
@@ -37,15 +37,19 @@ export default function CityPropertiesPage() {
 
     // Filtros de "limpieza" que respetan la ciudad de la página: el botón
     // "Limpiar filtros" no debe borrar la ciudad ni mostrar todo el catálogo
-    // bajo un título de otra ciudad
+    // bajo un título de otra ciudad.
+    // Solo se filtra por ciudad: la provincia del filtro no siempre coincide
+    // con la de la dirección (ej. Heredia se agrupa como "San José" en
+    // useFilter) y algunas direcciones no la incluyen. Filtrar también por
+    // provincia dejaba páginas como /ciudades/heredia sin resultados.
     const cityFilters = useMemo(
         () => cityEntry
-            ? { ...DEFAULT_FILTERS, province: cityEntry.province, city: cityEntry.city }
+            ? { ...DEFAULT_FILTERS, city: cityEntry.city }
             : DEFAULT_FILTERS,
         [cityEntry]
     )
 
-    // Siembra provincia + ciudad al entrar y las limpia al salir
+    // Siembra la ciudad al entrar y la limpia al salir
     useEffect(() => {
         if (!cityEntry) return undefined
 
@@ -91,8 +95,8 @@ export default function CityPropertiesPage() {
 
     // Evita el destello del catálogo completo en el frame anterior al efecto
     const isSynced =
-        filters.province === cityEntry.province &&
-        filters.city === cityEntry.city
+        filters.province === cityFilters.province &&
+        filters.city === cityFilters.city
 
     if (!isSynced) return null
 
