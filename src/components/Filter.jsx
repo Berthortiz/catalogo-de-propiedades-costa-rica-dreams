@@ -52,6 +52,15 @@ export default function Filter({ resetTo = DEFAULT_FILTERS }) {
       priceTier: "all",
     }))
 
+  // Cambiar la ciudad también resetea el precio: los rangos dependen de la
+  // ciudad y el rango anterior puede no existir en la nueva lista
+  const onChangeCity = (event) =>
+    setFilters((previous) => ({
+      ...previous,
+      city: event.target.value,
+      priceTier: "all",
+    }))
+
   // La ciudad solo se habilita después de elegir provincia
   const cityDisabled = filters.province === "all"
 
@@ -108,7 +117,7 @@ export default function Filter({ resetTo = DEFAULT_FILTERS }) {
               <select
                 id={cityFilterId}
                 value={filters.city}
-                onChange={onChange("city")}
+                onChange={onChangeCity}
                 disabled={cityDisabled}
               >
                 <option value="all">{cityDisabled ? "Elija provincia" : "Todas"}</option>

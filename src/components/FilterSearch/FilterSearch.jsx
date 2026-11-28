@@ -4,9 +4,9 @@
  * al pulsar "Buscar propiedades", que siembra el contexto de filtros y
  * navega a /products (donde la grilla ya aparece filtrada).
  */
-import { useState, useId } from "react"
+import { useState, useId, useMemo } from "react"
 import { useNavigate } from "react-router-dom"
-import { useFilters } from "../../hooks/useFilter"
+import { buildFilterOptions, useFilters } from "../../hooks/useFilter"
 import { DEFAULT_FILTERS } from "../../contexts/FiltersContext"
 import "./FilterSearch.css"
 
@@ -31,10 +31,18 @@ const PRICE_TOOLTIP_TEXT = "Elija primero la ciudad"
 
 export default function FilterSearch() {
     const navigate = useNavigate()
-    const { setFilters, propertyTypes, provinces, cities, priceTiers } = useFilters()
+    const { products, setFilters } = useFilters()
 
     // Borrador local: no toca el contexto hasta que se confirma la búsqueda
     const [draft, setDraft] = useState(DEFAULT_FILTERS)
+
+    // Opciones derivadas del borrador (no del contexto): ciudad y precios
+    // responden a lo que el usuario elige aquí, antes de pulsar "Buscar".
+    const { province, city } = draft
+    const { propertyTypes, provinces, cities, priceTiers } = useMemo(
+        () => buildFilterOptions(products, { province, city }),
+        [products, province, city]
+    )
 
     const typeFilterId = useId()
     const provinceFilterId = useId()
@@ -51,6 +59,15 @@ export default function FilterSearch() {
             ...previous,
             province: event.target.value,
             city: "all",
+            priceTier: "all",
+        }))
+
+    // Cambiar la ciudad también resetea el precio: los rangos dependen de la
+    // ciudad y el rango anterior puede no existir en la nueva lista
+    const onChangeCity = (event) =>
+        setDraft((previous) => ({
+            ...previous,
+            city: event.target.value,
             priceTier: "all",
         }))
 
@@ -104,7 +121,7 @@ export default function FilterSearch() {
                             <select
                                 id={cityFilterId}
                                 value={draft.city}
-                                onChange={onChange("city")}
+                                onChange={onChangeCity}
                                 disabled={cityDisabled}
                             >
                                 <option value="all">{cityDisabled ? "Elija provincia" : "Todas"}</option>
