@@ -28,27 +28,34 @@ const currencyFormat = new Intl.NumberFormat("en-US", {
    Utilidades de datos (funciones puras)
    ============================================================ */
 
+// Una propiedad cuenta como alquiler si su tipo lo indica o si el precio es
+// mensual. Las de venta (listingType "sale") quedan fuera de los rangos de
+// precio: un inmueble de venta de $680,000 inflaba el filtro a más de 1,300
+// opciones.
+const isRental = (product) =>
+    product.listingType === "rent" || product.price?.period === "month"
+
 // Genera los rangos de precio a partir del precio más bajo y más alto del
-// catálogo, en escalones de PRICE_STEP. Los extremos se redondean hacia
-// afuera a la grilla del paso, de modo que los rangos se adaptan solos
-// al crecer o cambiar los datos.
+// alcance (alquileres del catálogo o de la ciudad elegida), en escalones de
+// PRICE_STEP. El rango final cierra EXACTAMENTE en el precio más alto, para
+// que nunca se ofrezcan precios que no existen en esa ciudad.
 //
-//   Ejemplo (mín $4,500 / máx $8,000, paso $500):
-//     Hasta $5,000 / $5,000 – $5,500 / … / $7,000 – $7,500 / Más de $7,500
+//   Ejemplo (mín $2,500 / máx $8,000, paso $500):
+//     Hasta $3,000 / $3,000 – $3,500 / … / $7,000 – $7,500 / $7,500 – $8,000
 function buildPriceTiers(minPrice, maxPrice) {
     if (!Number.isFinite(maxPrice) || maxPrice <= 0) return []
 
     const step = PRICE_STEP
     const lowest = Number.isFinite(minPrice) && minPrice > 0 ? minPrice : 0
-    const start = Math.max(0, Math.floor(lowest / step) * step) // 4500 → 4500
-    const end = Math.ceil(maxPrice / step) * step               // 8000 → 8000
+    const start = Math.max(0, Math.floor(lowest / step) * step) // 2500 → 2500
 
     // Primer corte: el tope del rango "Hasta"
     const first = start + step
 
-    // Todo el catálogo cabe en un solo escalón: un único rango "Hasta"
-    if (first >= end) {
-        return [{ id: `0-${first}`, min: 0, max: first, label: `Hasta ${currencyFormat.format(first)}` }]
+    // Todo el alcance cabe en un solo escalón: un único rango "Hasta" que
+    // termina justo en el precio más alto (ej. Pavas: "Hasta $1,350")
+    if (maxPrice <= first) {
+        return [{ id: `0-${maxPrice}`, min: 0, max: maxPrice, label: `Hasta ${currencyFormat.format(maxPrice)}` }]
     }
 
     const tiers = [
@@ -56,8 +63,8 @@ function buildPriceTiers(minPrice, maxPrice) {
     ]
 
     // Rangos intermedios de $500 en $500 hasta el último corte
-    const last = end - step
-    for (let low = first; low < last; low += step) {
+    let low = first
+    while (low + step < maxPrice) {
         const high = low + step
         tiers.push({
             id: `${low}-${high}`,
@@ -65,9 +72,17 @@ function buildPriceTiers(minPrice, maxPrice) {
             max: high,
             label: `${currencyFormat.format(low)} – ${currencyFormat.format(high)}`,
         })
+        low = high
     }
 
-    tiers.push({ id: `${last}+`, min: last, max: null, label: `Más de ${currencyFormat.format(last)}` })
+    // Último rango: cierra exactamente en el precio más alto del alcance
+    // (ej. Heredia: "$2,500 – $2,800")
+    tiers.push({
+        id: `${low}-${maxPrice}`,
+        min: low,
+        max: maxPrice,
+        label: `${currencyFormat.format(low)} – ${currencyFormat.format(maxPrice)}`,
+    })
 
     return tiers
 }
@@ -129,45 +144,49 @@ function buildActiveMatchers(filters, priceTiers) {
    Hooks internos
    ============================================================ */
 
-// Opciones dinámicas de los selects del filtro.
-// Todas derivan del catálogo, de modo que los selects se pueblan solos
-// al agregar propiedades al JSON.
-// Las opciones de ciudad son DEPENDIENTES de la provincia elegida
-// (select en cascada): solo aparecen cantones de esa provincia.
-// Los useMemo no se recalculan en cada render, solo al cambiar el
-// catálogo o la provincia.
-function useFilterOptions(products, filters) {
-    const propertyTypes = useMemo(
-        () => [...new Set(products.map((product) => product.propertyType).filter(Boolean))],
-        [products]
-    )
+// Opciones dinámicas de los selects del filtro para un alcance dado.
+// Función pura: la usan el filtro de /products (estado del contexto) y el
+// buscador de la home (borrador local), de modo que ambos se comporten igual.
+// Las opciones de ciudad son DEPENDIENTES de la provincia elegida y los
+// rangos de precio DEPENDEN de la ciudad: solo se ofrecen precios de
+// alquileres que existen en ese alcance.
+export function buildFilterOptions(products, filters) {
+    const propertyTypes = [...new Set(
+        products.map((product) => product.propertyType).filter(Boolean)
+    )]
 
     const provinces = FILTER_PROVINCES
 
-    const cities = useMemo(
-        () => [...new Set(products
-            .filter((product) => filters.province === "all" || getFilterProvince(product) === filters.province)
-            .map(getCity)
-            .filter(Boolean))]
-            .sort(),
-        [products, filters.province]
+    const cities = [...new Set(products
+        .filter((product) => filters.province === "all" || getFilterProvince(product) === filters.province)
+        .map(getCity)
+        .filter(Boolean))]
+        .sort()
+
+    // Precios de alquiler dentro de la provincia y ciudad elegidas
+    const rentalPrices = products
+        .filter((product) => isRental(product))
+        .filter((product) => filters.province === "all" || getFilterProvince(product) === filters.province)
+        .filter((product) => filters.city === "all" || getCity(product) === filters.city)
+        .map((product) => product.price?.amount)
+        .filter((amount) => Number.isFinite(amount) && amount > 0)
+
+    const minPrice = rentalPrices.length > 0 ? Math.min(...rentalPrices) : 0
+    const maxPrice = rentalPrices.length > 0 ? Math.max(...rentalPrices) : 0
+
+    return { propertyTypes, provinces, cities, priceTiers: buildPriceTiers(minPrice, maxPrice) }
+}
+
+// Opciones memoizadas para el alcance del contexto (provincia + ciudad).
+// No se recalculan en cada render, solo al cambiar el catálogo, la
+// provincia o la ciudad.
+function useFilterOptions(products, filters) {
+    const { province, city } = filters
+
+    return useMemo(
+        () => buildFilterOptions(products, { province, city }),
+        [products, province, city]
     )
-
-    const minPrice = useMemo(
-        () => Math.min(...products
-            .map((product) => product.price?.amount ?? 0)
-            .filter((amount) => Number.isFinite(amount) && amount > 0)),
-        [products]
-    )
-
-    const maxPrice = useMemo(
-        () => Math.max(0, ...products.map((product) => product.price?.amount ?? 0)),
-        [products]
-    )
-
-    const priceTiers = useMemo(() => buildPriceTiers(minPrice, maxPrice), [minPrice, maxPrice])
-
-    return { propertyTypes, provinces, cities, priceTiers }
 }
 
 // Sugerencias para el estado vacío de la grilla, en 3 niveles:
